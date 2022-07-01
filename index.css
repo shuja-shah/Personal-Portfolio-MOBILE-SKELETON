@@ -107,27 +107,26 @@ p {
 .social ul li {
   margin-right: 20px;
 }
-.Projects{
+
+.Projects {
   display: grid;
   grid-template-columns: 1fr;
   background-color: white;
   padding: 0;
- 
 }
-.Introduction{
+
+.Introduction {
   margin-top: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.Introduction ul{
+
+.Introduction ul {
   list-style: none;
   padding: 24px;
 }
-/*.Introduction ul li{
-padding: 24px;;
-}*/
-h2{
+h2 {
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -135,19 +134,20 @@ h2{
   line-height: 48px;
   letter-spacing: 0.37px;
   padding: 10px;
-  
 }
-.line{
+
+.line {
   border-bottom: 1px solid #212121;
   width: 332px;
 }
-.project1{
+
+.project1 {
   display: flex;
   flex-direction: column;
   padding: 24px;
-  
 }
-h3{
+
+h3 {
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -156,10 +156,10 @@ h3{
   letter-spacing: 0.37px;
   margin: 0;
   padding: 4px;
-  color:hsla(218, 76%, 15%, 1);
-  
+  color: hsla(218, 76%, 15%, 1);
 }
-.prodetail{
+
+.prodetail {
   color: hsla(218, 76%, 15%, 1);
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -168,42 +168,47 @@ h3{
   line-height: 24px;
   margin: 0;
 }
-.blocks{
+
+.blocks {
   order: 3;
 }
-.blocks ul{
+
+.blocks ul {
   list-style: none;
   padding: 0;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
 }
-.blocks ul li a{
+
+.blocks ul li a {
   text-decoration: none;
-  border:1px solid hsla(218, 13%, 59%, 1);
+  border: 1px solid hsla(218, 13%, 59%, 1);
   padding: 10px;
-  color:hsla(218, 76%, 15%, 1);
+  color: hsla(218, 76%, 15%, 1);
   font-family: 'Inter', sans-serif;
   font-size: 15px;
 }
-.view{
+
+.view {
   order: 4;
   display: flex;
   text-decoration: none;
   color: white;
   width: 124px;
   height: 48px;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  padding:3px 12px;
+  padding: 3px 12px;
   justify-content: center;
   align-items: center;
 }
-.pro2{
+
+.pro2 {
   background: url(probg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -211,17 +216,19 @@ h3{
   flex-direction: column;
   margin: 10px;
 }
-.pro2tit{
-  padding:180px 0px 0px 0px;
-  font-family: 'Crete Round';
+
+.pro2tit {
+  padding: 180px 0 0 0;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  letter-spacing: 0.37px; 
-  color: #FFFFFF;
+  letter-spacing: 0.37px;
+  color: #fff;
 }
-.pro2detail{
+
+.pro2detail {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -230,11 +237,13 @@ h3{
   text-align: left;
   padding: 12px 16px 12px 16px;
 }
-.pro2bck{
+
+.pro2bck {
   order: 5;
   width: 250px;
 }
-.pro2bck ul{
+
+.pro2bck ul {
   list-style: none;
   padding: 0;
   display: flex;
@@ -242,41 +251,45 @@ h3{
   justify-content: space-around;
 }
 
-.pro2bck ul li a{
+.pro2bck ul li a {
   text-decoration: none;
   padding: 10px;
-  color:#FFFFFF;
+  color: #fff;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   background: rgba(255, 255, 255, 0.24);
 }
-.see{
+
+.see {
   order: 6;
   display: flex;
   text-decoration: none;
   color: white;
   height: 48px;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  padding:3px 12px;
+  padding: 3px 12px;
   justify-content: center;
   align-items: center;
 }
-#about{
+
+#about {
   background-color: hsla(22, 6%, 10%, 1);
   display: grid;
 }
-.abtxt{
+
+.abtxt {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px 24px 230px 24px;
+  padding: 10px 24px 50px 0px;
   position: relative;
 }
+
 .abtxt::after {
   content: '';
   position: absolute;
@@ -285,8 +298,10 @@ h3{
   width: 132px;
   height: 318px;
   background-image: url(abtbg.png);
+  background-repeat: no-repeat;
 }
-.abtxt h1{
+
+.abtxt h1 {
   padding: 120px 24px 24px 24px;
   font-family: 'Crete Round', serif;
   font-weight: 400;
@@ -295,21 +310,23 @@ h3{
   letter-spacing: 0.37px;
   margin: 0;
 }
-.abtxt p{
+
+.abtxt p {
   padding: 0 24px 36px 24px;
   margin: 0;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #F4F5F7;
+  color: #f4f5f7;
 }
-.down{
+
+.down {
   display: flex;
   text-decoration: none;
-  color: #F4F5F7;
-  height: 24px;
-  background-color: #FF6B00;
+  color: #f4f5f7;
+  height: 48px;
+  background-color: #ff6b00;
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.03rem;
   font-size: 17px;
@@ -317,50 +334,58 @@ h3{
   align-items: center;
   padding: 3px 12px;
   width: fit-content;
-  height: 48px;
   margin-left: 0;
   margin-top: 0;
   margin-right: 132px;
   margin-bottom: 0;
   order: 7;
 }
-.line2{
-  border-bottom:1px solid hsla(0, 0%, 100%, 1);
+
+.line2 {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 1);
   width: 322px;
-  margin-left: 24px;
+  order: 7;
+  padding: 200px 0 0 0;
+
 }
-.tech{
+
+.tech {
   display: flex;
   flex-direction: column;
   padding: 24px;
 }
-.lang{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-padding: 137px 86px 0px 86px;
-width: 200px;
-height: 48px
+
+.lang {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 137px 86px 0 86px;
+  width: 200px;
+  height: 48px;
 }
-.ltxt{
-font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 32px;
-line-height: 44px;
-color:hsla(0, 0%, 100%, 1);
-letter-spacing: 00.37px;
+
+.ltxt {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: hsla(0, 0%, 100%, 1);
+  letter-spacing: 00.37px;
 }
-.rect{
-width: 18px;
-height: 18px;
-background: #FF6B00;
-transform: rotate(-45deg);
+
+.rect {
+  width: 18px;
+  height: 18px;
+  background: #ff6b00;
+  transform: rotate(-45deg);
 }
-.skill{
+
+.skill {
   padding: 24px 100px;
 }
-.skill ul{
+
+.skill ul {
   list-style: none;
   padding: 0;
   display: flex;
@@ -369,42 +394,47 @@ transform: rotate(-45deg);
   justify-content: space-around;
   align-items: center;
 }
-.skill ul h3{
+
+.skill ul h3 {
   padding: 10px;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
-  color: #F4F5F7;
-}
-.fram{
-  display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-padding: 100px 86px 0px 86px;
-width: 200px;
-height: 48px
+  color: #f4f5f7;
 }
 
-.fram h6{
+.fram {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 86px 0 86px;
+  width: 200px;
+  height: 48px;
+}
+
+.fram h6 {
   padding: 10px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
   letter-spacing: 0.36px;
-  color: #F4F5F7;
+  color: #f4f5f7;
 }
-.square{
-width: 18px;
-height: 18px;
-background: #FF6B00;
+
+.square {
+  width: 18px;
+  height: 18px;
+  background: #ff6b00;
 }
-.technology{
+
+.technology {
   padding: 24px 100px;
 }
-.technology ul{
+
+.technology ul {
   list-style: none;
   padding: 0;
   display: flex;
@@ -413,41 +443,49 @@ background: #FF6B00;
   justify-content: space-around;
   align-items: center;
 }
-.technology ul h3{
+
+.technology ul h3 {
   padding: 10px;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
-  color: #F4F5F7;
+  color: #f4f5f7;
 }
-.tools{
+
+.tools {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 50px 86px 0px 86px;
+  padding: 50px 86px 0 132px;
   width: 100px;
-  height: 48px
+  height: 48px;
 }
-.tools h6{
+
+.tools h6 {
   padding: 10px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 25px;
   line-height: 43px;
-  color: #F4F5F7;
+  color: #f4f5f7;
 }
-.circle{
-width: 18px;
-height: 18px;
-background: #FF6B00;
-border-radius: 150px;
+
+.circle {
+  width: 18px;
+  height: 18px;
+  background: #ff6b00;
+  border-radius: 150px;
+
 }
-.toolist{
+
+.toolist {
   padding: 24px 100px;
+  border:1px solid blue;
 }
-.toolist ul{
+
+.toolist ul {
   list-style: none;
   padding: 0;
   display: flex;
@@ -455,12 +493,14 @@ border-radius: 150px;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  border:1px solid yellow
 }
-.toolist ul h3{
+
+.toolist ul h3 {
   padding: 10px;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
-  color: #F4F5F7;
+  color: #f4f5f7;
 }
