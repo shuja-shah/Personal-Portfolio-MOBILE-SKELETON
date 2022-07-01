@@ -126,6 +126,7 @@ p {
   list-style: none;
   padding: 24px;
 }
+
 h2 {
   font-family: 'Crete Round', serif;
   font-style: normal;
@@ -286,7 +287,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px 24px 50px 0px;
+  padding: 10px 24px 50px 0;
   position: relative;
 }
 
@@ -346,7 +347,6 @@ h3 {
   width: 322px;
   order: 7;
   padding: 200px 0 0 0;
-
 }
 
 .tech {
@@ -477,12 +477,10 @@ h3 {
   height: 18px;
   background: #ff6b00;
   border-radius: 150px;
-
 }
 
 .toolist {
   padding: 24px 100px;
-  border:1px solid blue;
 }
 
 .toolist ul {
@@ -493,7 +491,6 @@ h3 {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  border:1px solid yellow
 }
 
 .toolist ul h3 {
