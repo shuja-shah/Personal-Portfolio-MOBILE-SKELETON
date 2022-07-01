@@ -360,7 +360,7 @@ h3 {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 137px 86px 0 86px;
+  justify-self: center;
   width: 200px;
   height: 48px;
 }
@@ -409,7 +409,7 @@ h3 {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 100px 86px 0 86px;
+  justify-self: center;
   width: 200px;
   height: 48px;
 }
@@ -458,7 +458,7 @@ h3 {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 50px 86px 0 132px;
+  justify-self: center;
   width: 100px;
   height: 48px;
 }
