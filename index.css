@@ -209,7 +209,7 @@ h3{
   background-size: cover;
   display: flex;
   flex-direction: column;
-  margin: 24px;
+  margin: 10px;
 }
 .pro2tit{
   padding:180px 0px 0px 0px;
@@ -290,8 +290,8 @@ h3{
   padding: 120px 24px 24px 24px;
   font-family: 'Crete Round', serif;
   font-weight: 400;
-  font-size: 72px;
-  line-height: 88px;
+  font-size: 60px;
+  line-height: 78px;
   letter-spacing: 0.37px;
   margin: 0;
 }
@@ -426,7 +426,7 @@ background: #FF6B00;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 50px 86px 0px 132px;
+  padding: 50px 86px 0px 86px;
   width: 100px;
   height: 48px
 }
