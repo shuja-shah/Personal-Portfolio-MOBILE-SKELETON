@@ -3,10 +3,9 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-}
-
-#header {
-  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: hsla(22, 1%, 24%, 1);
 }
 
 .nav {
@@ -18,10 +17,14 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.nav a{
+  text-decoration: none;
+}
 
 .name {
-  margin-left: 25px;
   font-family: 'Roboto', sans-serif;
+  align-self: flex-start;
+  margin-left: 25px;
 }
 
 .pic {
@@ -291,6 +294,7 @@ h3 {
   position: relative;
 }
 
+/*
 .abtxt::after {
   content: '';
   position: absolute;
@@ -300,7 +304,7 @@ h3 {
   height: 318px;
   background-image: url(abtbg.png);
   background-repeat: no-repeat;
-}
+} */
 
 .abtxt h1 {
   padding: 120px 24px 24px 24px;
@@ -335,18 +339,30 @@ h3 {
   align-items: center;
   padding: 3px 12px;
   width: fit-content;
-  margin-left: 0;
-  margin-top: 0;
-  margin-right: 132px;
-  margin-bottom: 0;
+  align-self: flex-start;
   order: 7;
+  margin-bottom: 100px;
+  margin-left: 5px;
+  margin-right: 0;
+}
+
+.download {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bggg {
+  order: -8;
+  align-self: flex-end;
+  padding: 0 0 150px 0;
 }
 
 .line2 {
   border-bottom: 1px solid hsla(0, 0%, 100%, 1);
   width: 322px;
-  order: 7;
-  padding: 200px 0 0 0;
+  order: -9;
 }
 
 .tech {
