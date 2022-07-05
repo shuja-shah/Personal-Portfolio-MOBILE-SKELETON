@@ -546,17 +546,38 @@ h3 {
 }
 
 .btn-contact {
-  background-color: #ff6b00;
+  align-self: center;
+  width: 131px;
+  padding: 12px;
+  background: #ff6b00;
+  height: 48px;
   border: none;
-  color: white;
-  padding: 10px 20px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.btn-contact:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
   font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 5px;
+}
+
+.btn-contact:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+  border: none;
+}
+
+.btn-contact:active {
+  background-color: #e05304;
+  color: #fff;
 }
 
 .line3 {
@@ -591,10 +612,10 @@ form textarea {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border: none;
   outline: none;
+  font-family: 'Inter', sans-serif;
 }
 
 footer {
-  border-top: 1px solid black;
   width: 100%;
   display: flex;
   flex-direction: column;
