@@ -111,6 +111,9 @@ p {
   margin-right: 20px;
 }
 
+.realbg{
+  display: none;
+}
 .Projects {
   display: grid;
   grid-template-columns: 1fr;
@@ -621,4 +624,70 @@ footer {
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
+}
+@media (min-width: 768px){
+
+
+.intro{
+  display: grid;
+  grid-template-columns: 1fr, 1fr,1fr;
+  grid-template-rows: 0%;
+  grid-column-gap: 0px;
+
+
+}
+.intro::after{
+display: none;
+}
+.FirstArticle{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  grid-column-start: 2;
+  width: 500px;
+  justify-content: center;
+  padding-right: 100px;
+  padding-top: 192px;
+  margin-right: 0px;
+
+}
+.social ul{
+  grid-column-start: 1;
+  display:flex;
+  flex-direction: column;
+  height: max-content;
+  flex-wrap: wrap;
+  justify-content:center;
+  width: fit-content;  
+}
+.social{
+  justify-self: start;
+  padding-top: 266px;
+}
+.social ul li{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: max-content;
+  width: fit-content;
+  padding: 10px;
+}
+.FirstArticle h1{
+font-family: 'Crete Round';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 82px;
+}
+
+.realbg{
+  display: block;
+  grid-column-start: 3;
+  width: 500px;
+  justify-self: end;
+}
+
+
 }
