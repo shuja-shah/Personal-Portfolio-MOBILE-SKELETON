@@ -5,7 +5,6 @@ body {
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  background-color: hsla(22, 1%, 24%, 1);
 }
 
 .nav {
@@ -295,18 +294,6 @@ h3 {
   position: relative;
 }
 
-/*
-.abtxt::after {
-  content: '';
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 132px;
-  height: 318px;
-  background-image: url(abtbg.png);
-  background-repeat: no-repeat;
-} */
-
 .abtxt h1 {
   padding: 120px 24px 24px 24px;
   font-family: 'Crete Round', serif;
@@ -517,4 +504,121 @@ h3 {
   font-size: 22px;
   line-height: 43px;
   color: #f4f5f7;
+}
+
+.form-section {
+  display: grid;
+  row-gap: 58px;
+  padding: 0 24px 0 24px;
+  color: white;
+}
+
+.wrapper ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 24px;
+  width: 200px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.form-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #172b4d;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+}
+
+.btn-contact {
+  align-self: center;
+  width: 131px;
+  padding: 12px;
+  background: #ff6b00;
+  height: 48px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.btn-contact:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+  font-size: 16px;
+}
+
+.btn-contact:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+  border: none;
+}
+
+.btn-contact:active {
+  background-color: #e05304;
+  color: #fff;
+}
+
+.line3 {
+  height: 5px;
+  width: 134px;
+  border: 1px solid hsla(214, 38%, 8%, 1);
+  background-color: hsla(214, 38%, 8%, 1);
+  border-radius: 10px;
+  align-items: center;
+  justify-self: flex-end;
+}
+
+form input {
+  height: 48px;
+  padding: 5px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #dbd8d7;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+}
+
+form textarea {
+  padding: 12px;
+  width: 303px;
+  background: #fbf8f7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: none;
+  outline: none;
+  font-family: 'Inter', sans-serif;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
 }
