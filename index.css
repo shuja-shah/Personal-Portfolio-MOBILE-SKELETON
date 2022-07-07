@@ -720,15 +720,17 @@ line-height: 82px;
 }
 .Projects{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 370px 370px 370px;
   column-gap: 24px;
+  row-gap: 60px;
+  
 }
 .project1{
   display:flex;
   flex-direction: row;
   flex-wrap: nowrap;
   grid-column:1/-1;
-
+  margin-left: 300px;
 }
 .detail{
   padding-left: 50px;
@@ -755,6 +757,52 @@ width: 448px;
 }
 .view{
   margin-left: 10px;
+}
+.pro2{
+  display: none;
+}
+.pro3{
+  background: url("assets/pro3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 435px;
+  width:369px;
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.pro4{
+  background: url("assets/pro4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 435px;
+  width:369px;
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.pro5{
+  background: url("assets/pro5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 435px;
+  width:369px;
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.pro6{
+  background: url("probg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 435px;
+  width:369px;
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 #about{
   display:grid;
