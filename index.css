@@ -826,7 +826,7 @@ width: 448px;
   display: none;
 }
 .pro3{
-  background: url("assets/pro3.png");
+  background: url("assets/pro4.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -921,6 +921,7 @@ width: 448px;
 .form-section{
   display: grid;
   grid-template-columns: 455px 1fr;
+  column-gap: 100px;
 }
 .form-title{
   grid-column-start: 1;
@@ -943,6 +944,23 @@ width: 448px;
   display: block;
 }
 
+.btn-contact{
+  align-self: flex-start;
+  
+}
+.form input {
+  width: 684px;
+}
 
+.form input:focus {
+  border: none;
+}
 
+.form textarea {
+  height: 114px;
+  width: 685px;
+}
+.line3{
+  display: none;
+}
 }
