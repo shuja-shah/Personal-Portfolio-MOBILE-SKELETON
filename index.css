@@ -673,7 +673,9 @@ footer {
   }
 
   body {
-    display: grid;
+    display: block;
+    width: 100vw;
+    overflow-x: hidden;
   }
 
   .desk-menu {
@@ -699,19 +701,17 @@ footer {
     display: grid;
     grid-template-columns: 80px 1fr;
     grid-template-rows: 0%;
-    grid-column-gap: 0;
-    padding-right: 500px;
+    grid-column-gap: 24px;
+    background-image: url("assets/background.png");
+    background-repeat: no-repeat;
+    background-position: right 1px top 10px;
+    height: auto;
+    padding-left: 10px;
   }
 
   .intro::after {
     content: '';
-    display: block;
-    background-image: url("assets/background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 991px;
-    width: 750px;
-    top: 120px;
+    display: none;
   }
 
   .FirstArticle {
@@ -724,7 +724,7 @@ footer {
     justify-content: center;
     padding-right: 100px;
     padding-top: 192px;
-    margin-right: 300px;
+    margin: 0;
   }
 
   .social ul {
@@ -780,17 +780,33 @@ footer {
 
   .Projects {
     display: grid;
-    grid-template-columns: 500px 500px 500px;
-    margin: 0 118px;
+    grid-template-columns: 1fr 1fr;
     row-gap: 24px;
-    padding-bottom: 150px;
+  }
+
+  .mobil {
+    display: block;
+    width: 684px;
+    height: 448px;
+  }
+
+  .desk {
+    width: 100%;
+    display: none;
+  }
+
+  .portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 24px;
+    margin: 0 118px;
   }
 
   .hidemb {
     width: 95%;
     padding: 8px 16px;
     box-sizing: border-box;
-    height: 600px;
+    height: auto;
     display: flex;
     flex-direction: column;
     row-gap: 24px;
@@ -824,22 +840,12 @@ footer {
   .project1 {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     grid-column: 1/-1;
   }
 
   .detail {
     padding-left: 50px;
-  }
-
-  .desk {
-    display: none;
-  }
-
-  .mobil {
-    display: block;
-    width: 684px;
-    height: 448px;
   }
 
   .blocks {
@@ -889,8 +895,15 @@ footer {
   }
 
   #about {
-    display: grid;
-    grid-template-columns: 1fr;
+    background-image: url("assets/abtdebg.png");
+    background-repeat: no-repeat;
+    background-position: right 1px top 200px;
+    margin-top: 120px;
+    padding: 136px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   .bggg {
@@ -900,12 +913,7 @@ footer {
   .abtxt {
     display: flex;
     flex-direction: column;
-    justify-self: start;
-    padding-left: 250px;
-  }
-
-  .abtxt h1 {
-    align-self: flex-start;
+    padding-left: 24px;
   }
 
   .sec-det {
@@ -916,16 +924,11 @@ footer {
   .download {
     display: flex;
     background-color: hsla(22, 6%, 10%, 1);
-    padding-left: 260px;
+    padding-left: 30px;
   }
 
   .line2 {
-    padding-bottom: 100px;
-    height: 0;
-    width: 90%;
-    border-radius: 0;
-    padding-right: 200px;
-    margin-right: 100px;
+    display: none;
   }
 
   .abimg {
@@ -940,6 +943,7 @@ footer {
     grid-column-gap: 24px;
     grid-row-gap: 24px;
     background-color: hsla(22, 6%, 10%, 1);
+    border-top: 1px solid hsla(0, 0%, 100%, 1);
   }
 
   .lang {
@@ -992,9 +996,11 @@ footer {
 
   .form-input {
     display: block;
+    width: 330px;
   }
 
   .hide {
+    width: 330px;
     display: block;
   }
 
@@ -1002,17 +1008,17 @@ footer {
     align-self: flex-start;
   }
 
-  .form input {
+  .msg {
     width: 684px;
-  }
-
-  .form input:focus {
-    border: none;
-  }
-
-  .form textarea {
     height: 114px;
-    width: 685px;
+  }
+
+  .msg:hover {
+    cursor: text;
+  }
+
+  .at {
+    width: 684px;
   }
 
   .line3 {
