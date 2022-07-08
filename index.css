@@ -783,6 +783,7 @@ footer {
     grid-template-columns: 500px 500px 500px;
     margin: 0 118px;
     row-gap: 24px;
+    padding-bottom: 150px;
   }
 
   .hidemb {
