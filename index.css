@@ -286,6 +286,11 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+.see:hover{
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
 
 #about {
   background-color: hsla(22, 6%, 10%, 1);
@@ -338,6 +343,12 @@ h3 {
   margin-bottom: 100px;
   margin-left: 5px;
   margin-right: 0;
+}
+.down:hover{
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+  
 }
 
 .download {
@@ -878,7 +889,7 @@ width: 448px;
 .line2{
   padding-bottom: 100px;
   height: 0px;
-  width: 1156px;
+  width: 90%;
   border-radius: 0px;
   padding-right: 200px;
   margin-right: 100px;
