@@ -646,7 +646,39 @@ footer {
   align-items: center;
   flex-wrap: wrap;
 }
-
+.desk-menu{
+  display: none;
+}
+.hidemb{
+  display: none;
+}
+.abimg{
+  display: none;
+}
+.meow{
+  background-color: hsla(22, 6%, 10%, 1);
+}
+.download{
+  background-color: hsla(22, 6%, 10%, 1);
+}
+.lang{
+  justify-self: center;
+  margin: 0;
+  padding: 100px;
+  justify-content: center;
+}
+.fram{
+  justify-self: center;
+  margin: 0;
+  padding: 100px;
+  justify-content: center;
+}
+.tools{
+  justify-self: center;
+  margin: 0;
+  padding: 150px;
+  justify-content: center;
+}
 
 @media (min-width: 768px){
 
