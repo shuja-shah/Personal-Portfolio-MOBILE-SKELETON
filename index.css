@@ -15,6 +15,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .nav a {
@@ -126,9 +127,8 @@ p {
 
 .Introduction {
   margin-top: 120px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  justify-content: center;
 }
 
 .Introduction ul {
@@ -635,12 +635,40 @@ footer {
   align-items: center;
   flex-wrap: wrap;
 }
+
+
 @media (min-width: 768px){
+
+  .mob-menu{
+    display: none;
+  }
 
 body{
   display:grid;
 
 }
+.desk-menu{
+list-style: none;
+display: flex;
+column-gap:24px ;
+margin: 8px 16px;
+}
+
+.desk-menu a{
+  text-decoration: none;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+  font-size: 20px;
+  line-height: 20px;
+  line-height: 110%;
+  text-align: center;
+  vertical-align: middle;
+
+  
+}
+
+
 .intro{
   display: grid;
  grid-template-columns: 80px 1fr;
@@ -656,9 +684,9 @@ display: block;
 background-image: url("assets/realbg.png");
 background-repeat: no-repeat;
 background-size: cover;
-background-position: right -30px top 20px;
-height: 850px;
-width: 600px;
+background-position: right -30px top -200px;
+height: 720px;
+width: 640px;
 }
 .FirstArticle{
   display: flex;
@@ -720,18 +748,54 @@ line-height: 82px;
 }
 .Projects{
   display: grid;
-  grid-template-columns: 370px 370px 370px;
-  column-gap: 24px;
-  row-gap: 60px;
+  grid-template-columns: 500px 500px 500px;
+  margin: 0 118px;
+  row-gap: 24px;
+}
+
+.hidemb{
+  width: 95%;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   
+}
+
+
+.see{
+  display:none;
+  width: 90%;
+  height: 48px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+
+.hidemb:hover .pro2bck{
+    display: none;
+}
+
+.hidemb:hover .see{
+  display: flex;
+  align-items: center;
+}
+.hidemb:hover{
+  background: url("assets/pro3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .project1{
   display:flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  grid-column:1/-1;
-  margin-left: 300px;
+  grid-column:1/-1
 }
+
 .detail{
   padding-left: 50px;
 }
@@ -765,44 +829,24 @@ width: 448px;
   background: url("assets/pro3.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 435px;
-  width:369px;
-  margin-left: 300px;
-  display: flex;
-  flex-direction: column-reverse;
 }
 .pro4{
   background: url("assets/pro4.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 435px;
-  width:369px;
-  margin-left: 300px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+
 }
+
+
 .pro5{
   background: url("assets/pro5.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 435px;
-  width:369px;
-  margin-left: 300px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
 }
 .pro6{
   background: url("probg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 435px;
-  width:369px;
-  margin-left: 300px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
 }
 #about{
   display:grid;
@@ -866,13 +910,13 @@ width: 448px;
   
 }
 .skill ul li {
-  padding: 80px;
+  padding: 20px;
 }
 .technology ul li{
-  padding: 80px;
+  padding: 20px;
 }
 .toolist ul li{
-  padding: 80px;
+  padding: 20px;
 }
 .form-section{
   display: grid;
