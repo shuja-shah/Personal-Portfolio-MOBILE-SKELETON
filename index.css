@@ -681,12 +681,11 @@ margin: 8px 16px;
 .intro::after{
 content: '';
 display: block;
-background-image: url("assets/realbg.png");
+background-image: url("assets/background.png");
 background-repeat: no-repeat;
 background-size: cover;
-background-position: right -30px top -200px;
-height: 720px;
-width: 640px;
+height: 991px;
+width: 750px;
 }
 .FirstArticle{
   display: flex;
