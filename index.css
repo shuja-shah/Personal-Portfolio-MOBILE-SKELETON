@@ -715,12 +715,11 @@ footer {
     display: none;
   }
 
-  .intro-text:hover {
-    /* transform: translate(45px,0);
-    transition-delay: 500ms; */
+  nav a{
+    display: block;
   }
 
-  .social li:hover {
+    .social li:hover {
     transform: scale(1.5);
     transition-delay: 200ms;
   }
@@ -1042,4 +1041,12 @@ footer {
   .line3 {
     display: none;
   }
+.wrapper li:hover{
+  position: relative;
+  top: -20px;
+  left: -20px;
+  transform: translate(20px);
+  
+}
+
 }
