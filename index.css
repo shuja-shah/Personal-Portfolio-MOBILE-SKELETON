@@ -351,6 +351,7 @@ h3 {
   border: 1px solid #f55800;
   background-color: #fff5e1;
   color: #f55800;
+  transform: scale(1.1);
 }
 
 .download {
@@ -829,12 +830,15 @@ footer {
   .hidemb:hover .see {
     display: flex;
     align-items: center;
+  
   }
+  
 
   .hidemb:hover {
     background: url("assets/pro3.png");
     background-repeat: no-repeat;
     background-size: cover;
+    transform: scale(1.1);
   }
 
   .project1 {
