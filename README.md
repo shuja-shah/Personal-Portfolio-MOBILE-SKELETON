@@ -8,7 +8,7 @@
 
 
 ## Live Demo
-- (https://github.com/shuja-shah/shuja-shah.github.io.git)
+- (https://shuja-shah.github.io/)
 
 ## Built With
 
