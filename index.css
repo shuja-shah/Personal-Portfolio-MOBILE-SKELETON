@@ -715,11 +715,11 @@ footer {
     display: none;
   }
 
-  nav a{
+  nav a {
     display: block;
   }
 
-    .social li:hover {
+  .social li:hover {
     transform: scale(1.5);
     transition-delay: 200ms;
   }
@@ -799,11 +799,13 @@ footer {
     width: 35%;
     height: auto;
   }
+
   .mobil:hover {
     /* width: 45%; */
     transform: scale(1.1);
     margin: 20px;
   }
+
   .desk {
     width: 100%;
     display: none;
@@ -856,6 +858,7 @@ footer {
     display: flex;
     flex-direction: row;
     column-gap: 24px;
+
     /* flex-wrap: wrap; */
     grid-column: 1/-1;
   }
@@ -1041,12 +1044,11 @@ footer {
   .line3 {
     display: none;
   }
-.wrapper li:hover{
-  position: relative;
-  top: -20px;
-  left: -20px;
-  transform: translate(20px);
-  
-}
 
+  .wrapper li:hover {
+    position: relative;
+    top: -20px;
+    left: -20px;
+    transform: translate(20px);
+  }
 }
