@@ -22,7 +22,7 @@ body {
 }
 
 .name {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   align-self: flex-start;
   margin-left: 25px;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 h4 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -53,7 +53,7 @@ h4 {
 }
 
 .intro::after {
-  content: '';
+  content: "";
   position: absolute;
   right: 0;
   bottom: 0;
@@ -64,7 +64,7 @@ h4 {
 
 h1 {
   color: hsla(22, 100%, 48%, 1);
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -75,7 +75,7 @@ h1 {
 
 .subtitle {
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -87,7 +87,7 @@ h1 {
 
 p {
   color: hsla(0, 0%, 100%, 1);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -138,7 +138,7 @@ p {
 }
 
 h2 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -159,7 +159,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -172,7 +172,7 @@ h3 {
 
 .prodetail {
   color: hsla(218, 76%, 15%, 1);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -197,7 +197,7 @@ h3 {
   border: 1px solid hsla(218, 13%, 59%, 1);
   padding: 10px;
   color: hsla(218, 76%, 15%, 1);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
 }
 
@@ -209,7 +209,7 @@ h3 {
   width: 124px;
   height: 48px;
   background-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -230,7 +230,7 @@ h3 {
 
 .pro2tit {
   padding: 180px 0 0 0;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -240,7 +240,7 @@ h3 {
 }
 
 .pro2detail {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -266,7 +266,7 @@ h3 {
   text-decoration: none;
   padding: 10px;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   background: rgba(255, 255, 255, 0.24);
 }
@@ -278,7 +278,7 @@ h3 {
   color: white;
   height: 48px;
   background-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -309,7 +309,7 @@ h3 {
 
 .abtxt h1 {
   padding: 120px 24px 24px 24px;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-weight: 400;
   font-size: 72px;
   line-height: 81.5px;
@@ -320,7 +320,7 @@ h3 {
 .abtxt p {
   padding: 0 24px 36px 24px;
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -333,7 +333,7 @@ h3 {
   color: #f4f5f7;
   height: 48px;
   background-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   letter-spacing: 0.03rem;
   font-size: 17px;
   justify-content: center;
@@ -351,6 +351,7 @@ h3 {
   border: 1px solid #f55800;
   background-color: #fff5e1;
   color: #f55800;
+  transform: scale(1.1);
 }
 
 .download {
@@ -390,7 +391,7 @@ h3 {
 }
 
 .ltxt {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
@@ -421,7 +422,7 @@ h3 {
 
 .skill ul h3 {
   padding: 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
@@ -440,7 +441,7 @@ h3 {
 
 .fram h6 {
   padding: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
@@ -470,7 +471,7 @@ h3 {
 
 .technology ul h3 {
   padding: 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
@@ -489,7 +490,7 @@ h3 {
 
 .tools h6 {
   padding: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 25px;
   line-height: 43px;
@@ -519,7 +520,7 @@ h3 {
 
 .toolist ul h3 {
   padding: 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
@@ -549,7 +550,7 @@ h3 {
 }
 
 .form-title {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -640,7 +641,7 @@ form textarea {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border: none;
   outline: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 footer {
@@ -710,8 +711,17 @@ footer {
   }
 
   .intro::after {
-    content: '';
+    content: "";
     display: none;
+  }
+
+  nav a {
+    display: block;
+  }
+
+  .social li:hover {
+    transform: scale(1.5);
+    transition-delay: 200ms;
   }
 
   .FirstArticle {
@@ -753,7 +763,7 @@ footer {
   }
 
   .FirstArticle h1 {
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -786,8 +796,14 @@ footer {
 
   .mobil {
     display: block;
-    width: 684px;
-    height: 448px;
+    width: 35%;
+    height: auto;
+  }
+
+  .mobil:hover {
+    /* width: 45%; */
+    transform: scale(1.1);
+    margin: 20px;
   }
 
   .desk {
@@ -835,17 +851,21 @@ footer {
     background: url("assets/pro3.png");
     background-repeat: no-repeat;
     background-size: cover;
+    transform: scale(1.1);
   }
 
   .project1 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    column-gap: 24px;
+
+    /* flex-wrap: wrap; */
     grid-column: 1/-1;
   }
 
   .detail {
-    padding-left: 50px;
+    /* padding-left: 50px; */
+    width: 50%;
   }
 
   .blocks {
@@ -981,7 +1001,7 @@ footer {
 
   .form-title {
     grid-column-start: 1;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
@@ -1023,5 +1043,12 @@ footer {
 
   .line3 {
     display: none;
+  }
+
+  .wrapper li:hover {
+    position: relative;
+    top: -20px;
+    left: -20px;
+    transform: translate(20px);
   }
 }
