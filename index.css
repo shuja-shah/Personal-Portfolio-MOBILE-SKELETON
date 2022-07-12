@@ -830,13 +830,11 @@ footer {
   }
 
   .line {
-    width: 800px;
+    width: 400px;
     border: 1px solid hsla(0, 0%, 13%, 1);
   }
 
-  .Introduction ul li {
-    padding: 80px;
-  }
+  
 
   .Projects {
     display: grid;
@@ -865,7 +863,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 24px;
-    margin: 0 118px;
+    margin: 0 0;
   }
 
   .hidemb {
@@ -1046,7 +1044,7 @@ footer {
   .form-section {
     display: grid;
     grid-template-columns: 455px 1fr;
-    column-gap: 100px;
+    column-gap: 20px;
   }
 
   .form-title {
@@ -1096,9 +1094,6 @@ footer {
   }
 
   .wrapper li:hover {
-    position: relative;
-    top: -20px;
-    left: -20px;
-    transform: translate(20px);
+    transform: scale(1.2);
   }
 }
