@@ -378,7 +378,12 @@ h3 {
   color: #f55800;
   transform: scale(1.1);
 }
-
+.down:focus-within {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+  transform: scale(1.1);
+}
 .download {
   display: flex;
   flex-direction: column-reverse;
@@ -622,6 +627,12 @@ h3 {
   color: #f55800;
   font-size: 16px;
 }
+.btn-contact:focus-within {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+  font-size: 16px;
+}
 
 .btn-contact:disabled {
   background-color: #f4f1f0;
@@ -738,6 +749,10 @@ footer {
     color: #ff6b00;
     transform: scale(1.2);
   }
+  .nav ul li :focus-within{
+    color: #ff6b00;
+    transform: scale(1.2);
+  }
   .hidedk{
     display: none;
   }
@@ -774,6 +789,10 @@ footer {
     transition-delay: 200ms;
   }
 
+  .social li:focus-within {
+    transform: scale(1.2);
+    
+  }
   .FirstArticle {
     display: flex;
     flex-direction: column;
@@ -901,6 +920,20 @@ footer {
     background-size: cover;
     transform:scale(1.1)
   }
+  .hidemb:focus-within {
+    background: url("assets/pro3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform:scale(1.1);
+    
+  }
+  .hidemb:focus-within .see {
+    display: flex;
+    align-items: center;
+  }
+  .hidemb:focus-within .pro2bck {
+    opacity: 0;
+  }
 
   .project1 {
     display: flex;
@@ -932,6 +965,11 @@ footer {
 
   .view {
     margin-left: 10px;
+  }
+  .view:hover,.view:focus-within{
+    transform: scale(1.1);
+    color: #ff6b00;
+    background-color: hsla(0, 0%, 100%, 1);
   }
 
   .pro2 {
@@ -1094,6 +1132,9 @@ footer {
   }
 
   .wrapper li:hover {
+    transform: scale(1.2);
+  }
+  .wrapper li:focus-within {
     transform: scale(1.2);
   }
 }
