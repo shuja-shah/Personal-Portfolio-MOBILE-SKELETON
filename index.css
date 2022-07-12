@@ -336,7 +336,7 @@ h3 {
   position: relative;
 }
 
-.abtxt h1 {
+.abtxt h2 {
   padding: 120px 24px 24px 24px;
   font-family: "Crete Round", serif;
   font-weight: 400;
@@ -344,6 +344,7 @@ h3 {
   line-height: 81.5px;
   letter-spacing: 0.37px;
   margin: 0;
+  color: hsla(22, 100%, 48%, 1);
 }
 
 .abtxt p {
