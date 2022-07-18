@@ -23,6 +23,7 @@ menuIcon.addEventListener("click", () => {
     header.style.height = "100vh";
     header.style.zIndex = "1";
   } else {
-    menuList.style.display = "none";
+     menuList.style.display = "none";
+     
   }
 });
