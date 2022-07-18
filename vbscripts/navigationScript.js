@@ -7,10 +7,12 @@ let email = document.getElementById("nav-mail");
 
 menuIcon.addEventListener("click", () => {
   if (menuList.style.display === "none") {
-    email.style.display = 'none';
+    email.style.display = "none";
     menuList.style.display = "flex";
     menuList.style.flexDirection = "column";
     menuList.style.height = "100vh";
+    menuList.style.width = "95vw";
+
     menuList.style.color = "#fff";
     menuList.style.fontSize = "32px";
     menuList.style.order = -2;
@@ -20,7 +22,6 @@ menuIcon.addEventListener("click", () => {
     header.style.position = "absolute";
     header.style.height = "100vh";
     header.style.zIndex = "1";
-    //  main.style.display = "none";
   } else {
     menuList.style.display = "none";
   }
