@@ -6,7 +6,6 @@ body {
   align-items: center;
   flex-wrap: wrap;
   overflow-x: hidden;
-
 }
 
 header {
@@ -47,8 +46,21 @@ main {
   display: none;
 }
 
+.nav-link a {
+  color: hsla(0, 0%, 100%, 1);
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  
+}
+
+.nav-link li {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 1);
+  padding: 10px;
+}
+
 .logo {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
@@ -716,7 +728,7 @@ footer {
 
 @media (min-width: 768px) {
   .logo {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 15px;
     font-weight: 600;
     line-height: 20px;
@@ -734,7 +746,7 @@ footer {
   .nav a {
     text-decoration: none;
     list-style: none;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 15px;
     font-weight: 600;
     line-height: 20px;
