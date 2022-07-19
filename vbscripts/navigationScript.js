@@ -7,6 +7,7 @@ let header = document.querySelector("header");
 let email = document.getElementById("nav-mail");
 let btnClose = document.getElementById("btn-close");
 const logo = document.getElementsByClassName("logo")[0];
+let social= document.getElementById("special");
 
 menuIcon.addEventListener("click", () => {
   email.style.display = "none";
@@ -30,6 +31,7 @@ menuIcon.addEventListener("click", () => {
   menuList.style.alignItems = "initial";
   menuList.style.width = "95%";
   menuList.style.color = "#fff5e1";
+  social.style.opacity="0";
 
   menuIcon.style.opacity = 0;
 });
