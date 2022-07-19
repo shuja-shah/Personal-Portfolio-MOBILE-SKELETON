@@ -45,3 +45,14 @@ function collabsable() {
   menuList.style.display = "none";
 }
 
+btnClose.addEventListener("click", () => {
+  collabsable();
+  window.location.reload();
+});
+
+menuList.forEach((item) => {
+  item.addEventListener("click", () => {
+    collabsable();
+    window.location.reload();
+  });
+});
