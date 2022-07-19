@@ -60,6 +60,19 @@ const project = [
     },
     projectImage: 'pro4.png',
   },
+
+  {
+    projectTitle: 'Profesional Art Printing Data',
+    projectDiscription:
+      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
+      + 'been the industrys standard',
+    techTools: {
+      html: 'HTML',
+      bootstrap: 'Bootstrap',
+      ruby: 'ruby',
+    },
+    projectImage: 'pro5.png',
+  },
 ];
 
 const button = document.querySelectorAll('.btn-primary');
@@ -86,8 +99,8 @@ function initialize(project) {
 
 button.forEach((btn) => {
   btn.addEventListener('click', (identity) => {
-    const btnTity = identity.dataset.id;
-    // initialize(project[btnTity]);
-    console.log(project[btnTity]);
+    let btnTity = identity.target.dataset.id;
+    initialize(project[btnTity]);
+    // console.log(project[btnTity]);
   });
 });
