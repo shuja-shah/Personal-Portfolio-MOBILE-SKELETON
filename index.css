@@ -53,10 +53,10 @@ main {
   letter-spacing: 0.03em;
 }
 
-#btn-close {
-    align-self: flex-end;
+.btn-close {
+    justify-self: flex-start;
+    /* align-self: flex-end; */
     color: #fff;
-    margin-top: 16px;
     display: none;
   }
 
