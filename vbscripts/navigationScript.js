@@ -5,7 +5,7 @@ const menuItemList = document.querySelectorAll(".nav-link li");
 let main = document.querySelector("main");
 let header = document.querySelector("header");
 let email = document.getElementById("nav-mail");
-const btnClose = document.getElementById("btn-close");
+let btnClose = document.getElementById("btn-close");
 const logo = document.getElementsByClassName("logo")[0];
 
 menuIcon.addEventListener("click", () => {
@@ -14,6 +14,8 @@ menuIcon.addEventListener("click", () => {
   main.style.display = "none";
   logo.style.display = "none";
   btnClose.style.display = "block";
+  btnClose.style.alignSelf='flex-end';
+  btnClose.style.marginRight='18px';
 
   header.style.height = "100vh";
   header.style.alignItems = "flex-start";
@@ -22,6 +24,7 @@ menuIcon.addEventListener("click", () => {
   navBar.style.flexDirection = "column";
   navBar.style.justifyContent = "space-between";
   navBar.style.width = "100%";
+  menuList.style.paddingTop='100px';
 
   menuList.style.display = "block";
   menuList.style.alignItems = "initial";
