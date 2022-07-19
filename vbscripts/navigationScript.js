@@ -4,26 +4,28 @@ let menuList = document.querySelector(".nav-link");
 let main = document.querySelector("main");
 let header = document.querySelector("header");
 let email = document.getElementById("nav-mail");
+const btnClose = document.getElementById("btn-close");
+const logo = document.getElementsByClassName("logo")[0];
 
 menuIcon.addEventListener("click", () => {
-  if (menuList.style.display === "none") {
-    email.style.display = "none";
-    menuList.style.display = "flex";
-    menuList.style.flexDirection = "column";
-    menuList.style.height = "100vh";
-    menuList.style.width = "95vw";
+  email.style.display = "none";
+  menuIcon.style.display = "none";
+  main.style.display = "none";
+  logo.style.display = "none";
+  btnClose.style.display = "block";
 
-    menuList.style.color = "#fff";
-    menuList.style.fontSize = "32px";
-    menuList.style.order = -2;
-    menuList.style.marginTop = "20px";
+  header.style.height = "100vh";
+  header.style.alignItems = "flex-start";
 
-    menuIcon.style.opacity = 0;
-    header.style.position = "absolute";
-    header.style.height = "100vh";
-    header.style.zIndex = "1";
-  } else {
-     menuList.style.display = "none";
-     
-  }
+  navBar.style.display = "flex";
+  navBar.style.flexDirection = "column";
+  navBar.style.justifyContent = "space-between";
+  navBar.style.width = "100%";
+
+  menuList.style.display = "block";
+  menuList.style.alignItems = "initial";
+  menuList.style.width = "95%";
+  menuList.style.color = "#fff5e1";
+
+  menuIcon.style.opacity = 0;
 });
