@@ -1,6 +1,7 @@
 let menuIcon = document.getElementById("hambuger-menu");
 let navBar = document.getElementById("nav-bar");
 let menuList = document.querySelector(".nav-link");
+const menuItemList = document.querySelectorAll(".nav-link li");
 let main = document.querySelector("main");
 let header = document.querySelector("header");
 let email = document.getElementById("nav-mail");
@@ -38,7 +39,6 @@ function collabsable() {
 
   btnClose.style.display = "none";
   navBar.style.width = "auto";
-
   header.style.height = "48px";
   header.style.alignItems = "center";
 
@@ -50,7 +50,7 @@ btnClose.addEventListener("click", () => {
   window.location.reload();
 });
 
-menuList.forEach((item) => {
+menuItemList.forEach((item) => {
   item.addEventListener("click", () => {
     collabsable();
     window.location.reload();
