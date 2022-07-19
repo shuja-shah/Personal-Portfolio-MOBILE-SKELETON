@@ -15,7 +15,7 @@ menuIcon.addEventListener('click', () => {
   logo.style.display = 'none';
   btnClose.style.display = 'block';
   btnClose.style.alignSelf = 'flex-end';
-  btnClose.style.marginRight = '18px';
+  btnClose.style.marginRight = '50px';
 
   header.style.height = '100vh';
   header.style.alignItems = 'flex-start';
