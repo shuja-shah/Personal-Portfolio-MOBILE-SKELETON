@@ -48,34 +48,22 @@ main {
 
 .nav-link a {
   color: hsla(0, 0%, 100%, 1);
-  font-weight: 600;
-  font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
 }
 
 .btn-close {
-    justify-self: flex-start;
-    /* align-self: flex-end; */
-    color: #fff;
-    display: none;
-  }
+  justify-self: flex-start;
+  color: #fff;
+  display: none;
+}
 
-  .nav-link li {
-    border-bottom: 1px solid #6f6c6b;
-    padding: 16px;
-  }
-
-  .nav-link a {
-    color: #fff5e1;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    text-align: center;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-  }
-
-.nav-link li {
+.nav-link ul li {
   border-bottom: 1px solid hsla(0, 0%, 100%, 1);
   padding: 10px;
 }
@@ -781,7 +769,6 @@ footer {
     float: right;
     margin-right: 20px;
   }
-  
 
   .nav-link {
     display: block;
@@ -830,6 +817,20 @@ footer {
     display: none;
   }
 
+  .social ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: max-content;
+    width: fit-content;
+    padding: 10px;
+  }
+
+  .blocks ul li {
+    padding: 10px;
+  }
+
   .social li:hover {
     transform: scale(1.2);
     transition-delay: 200ms;
@@ -865,16 +866,6 @@ footer {
   .social {
     justify-self: start;
     padding-top: 266px;
-  }
-
-  .social ul li {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: max-content;
-    width: fit-content;
-    padding: 10px;
   }
 
   .FirstArticle h1 {
@@ -997,11 +988,6 @@ footer {
 
   .blocks {
     display: flex;
-    align-items: space-around;
-  }
-
-  .blocks ul li {
-    padding: 10px;
   }
 
   .prodetail {

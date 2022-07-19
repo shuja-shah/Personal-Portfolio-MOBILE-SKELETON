@@ -1,62 +1,62 @@
-let menuIcon = document.getElementById("hambuger-menu");
-let navBar = document.getElementById("nav-bar");
-let menuList = document.querySelector(".nav-link");
-const menuItemList = document.querySelectorAll(".nav-link li");
-let main = document.querySelector("main");
-let header = document.querySelector("header");
-let email = document.getElementById("nav-mail");
-let btnClose = document.getElementById("btn-close");
-const logo = document.getElementsByClassName("logo")[0];
-let social= document.getElementById("special");
+const menuIcon = document.getElementById('hambuger-menu');
+const navBar = document.getElementById('nav-bar');
+const menuList = document.querySelector('.nav-link');
+const menuItemList = document.querySelectorAll('.nav-link li');
+const main = document.querySelector('main');
+const header = document.querySelector('header');
+const email = document.getElementById('nav-mail');
+const btnClose = document.getElementById('btn-close');
+const logo = document.getElementsByClassName('logo')[0];
+const social = document.getElementById('special');
 
-menuIcon.addEventListener("click", () => {
-  email.style.display = "none";
-  menuIcon.style.display = "none";
-  main.style.display = "none";
-  logo.style.display = "none";
-  btnClose.style.display = "block";
-  btnClose.style.alignSelf='flex-end';
-  btnClose.style.marginRight='18px';
+menuIcon.addEventListener('click', () => {
+  email.style.display = 'none';
+  menuIcon.style.display = 'none';
+  main.style.display = 'none';
+  logo.style.display = 'none';
+  btnClose.style.display = 'block';
+  btnClose.style.alignSelf = 'flex-end';
+  btnClose.style.marginRight = '18px';
 
-  header.style.height = "100vh";
-  header.style.alignItems = "flex-start";
+  header.style.height = '100vh';
+  header.style.alignItems = 'flex-start';
 
-  navBar.style.display = "flex";
-  navBar.style.flexDirection = "column";
-  navBar.style.justifyContent = "space-between";
-  navBar.style.width = "100%";
-  menuList.style.paddingTop='100px';
+  navBar.style.display = 'flex';
+  navBar.style.flexDirection = 'column';
+  navBar.style.justifyContent = 'space-between';
+  navBar.style.width = '100%';
+  menuList.style.paddingTop = '100px';
 
-  menuList.style.display = "block";
-  menuList.style.alignItems = "initial";
-  menuList.style.width = "95%";
-  menuList.style.color = "#fff5e1";
-  social.style.opacity="0";
+  menuList.style.display = 'block';
+  menuList.style.alignItems = 'initial';
+  menuList.style.width = '95%';
+  menuList.style.color = '#fff5e1';
+  social.style.opacity = '0';
 
   menuIcon.style.opacity = 0;
 });
 
 function collabsable() {
-  menuIcon.style.display = "block";
-  main.style.display = "block";
-  logo.style.display = "block";
-  email.style.display = "block";
+  menuIcon.style.display = 'block';
+  main.style.display = 'block';
+  logo.style.display = 'block';
+  email.style.display = 'block';
 
-  btnClose.style.display = "none";
-  navBar.style.width = "auto";
-  header.style.height = "48px";
-  header.style.alignItems = "center";
+  btnClose.style.display = 'none';
+  navBar.style.width = 'auto';
+  header.style.height = '48px';
+  header.style.alignItems = 'center';
 
-  menuList.style.display = "none";
+  menuList.style.display = 'none';
 }
 
-btnClose.addEventListener("click", () => {
+btnClose.addEventListener('click', () => {
   collabsable();
   window.location.reload();
 });
 
 menuItemList.forEach((item) => {
-  item.addEventListener("click", () => {
+  item.addEventListener('click', () => {
     collabsable();
     window.location.reload();
   });
