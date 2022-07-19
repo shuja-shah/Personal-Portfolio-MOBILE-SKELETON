@@ -2,8 +2,8 @@ const project = [
   {
     projectTitle: 'Profesional Art Printing Data',
     projectDiscription:
-        ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-        + 'been the industrys standard',
+      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
+      + 'been the industrys standard',
     techTools: {
       html: 'HTML',
       bootstrap: 'Bootstrap',
@@ -14,8 +14,8 @@ const project = [
   {
     projectTitle: 'Data Dashboard Healthcare',
     projectDiscription:
-        ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-        + 'been the industrys standard',
+      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
+      + 'been the industrys standard',
     techTools: {
       html: 'HTML',
       bootstrap: 'Bootstrap',
@@ -26,8 +26,8 @@ const project = [
   {
     projectTitle: 'Profesional Art Printing Data',
     projectDiscription:
-        ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-        + 'been the industrys standard',
+      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
+      + 'been the industrys standard',
     techTools: {
       html: 'HTML',
       bootstrap: 'Bootstrap',
@@ -38,8 +38,8 @@ const project = [
   {
     projectTitle: 'Profesional Art Printing Data',
     projectDiscription:
-            ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-            + 'been the industrys standard',
+      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
+      + 'been the industrys standard',
     techTools: {
       html: 'HTML',
       bootstrap: 'Bootstrap',
@@ -51,9 +51,8 @@ const project = [
   {
     projectTitle: 'Profesional Art Printing Data',
     projectDiscription:
-
-        ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-        + 'been the industrys standard',
+      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
+      + 'been the industrys standard',
     techTools: {
       html: 'HTML',
       bootstrap: 'Bootstrap',
@@ -61,8 +60,9 @@ const project = [
     },
     projectImage: 'pro4.png',
   },
-
 ];
+
+const button = document.querySelectorAll('.btn-primary');
 const load = document.querySelector('Load');
 function initialize(project) {
   const projectDiv = document.createElement('div');
@@ -80,7 +80,14 @@ function initialize(project) {
         <p>${project.techTools.ruby}</p>
         </div>`;
   });
-  projectDiv.join("");
 
   load.appendChild(projectDiv);
 }
+
+button.forEach((btn) => {
+  btn.addEventListener('click', (identity) => {
+    const btnTity = identity.dataset.id;
+    // initialize(project[btnTity]);
+    console.log(project[btnTity]);
+  });
+});
