@@ -8,7 +8,6 @@ const email = document.getElementById('nav-mail');
 const btnClose = document.getElementById('btn-close');
 const logo = document.getElementsByClassName('logo')[0];
 const social = document.getElementById('special');
-
 menuIcon.addEventListener('click', () => {
   email.style.display = 'none';
   menuIcon.style.display = 'none';
