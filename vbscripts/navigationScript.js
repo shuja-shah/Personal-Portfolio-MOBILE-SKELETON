@@ -29,3 +29,19 @@ menuIcon.addEventListener("click", () => {
 
   menuIcon.style.opacity = 0;
 });
+
+function collabsable() {
+  menuIcon.style.display = "block";
+  main.style.display = "block";
+  logo.style.display = "block";
+  email.style.display = "block";
+
+  btnClose.style.display = "none";
+  navBar.style.width = "auto";
+
+  header.style.height = "48px";
+  header.style.alignItems = "center";
+
+  menuList.style.display = "none";
+}
+
