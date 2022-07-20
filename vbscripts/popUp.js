@@ -76,12 +76,9 @@ const project = [
 ];
 
 const button = document.querySelectorAll('.btn-primary');
-const load = document.querySelector('Load');
-
 const projectDiv = document.createElement('div');
 projectDiv.className = 'project-div';
 const divtemplate = document.getElementById('template');
-const closeBtn = document.getElementById('popup-close-btn');
 
 function initialize(project) {
   window.scrollTo(0, 0);
@@ -115,12 +112,11 @@ function initialize(project) {
       </div>
     </div>   
     `;
-  // const secondChild = document.querySelector('.project-image-div');
-  // secondChild.style.display = 'flex';
-  // secondChild.style.flexDrap = 'wrap';
-  // secondChild.style.flexDirection = 'column';
-  // secondChild.style.columnGap = '18px';
   divtemplate.innerHTML = template;
+  const closeBtn = document.getElementById('popup-close-btn');
+  closeBtn.addEventListener('click', () => {
+    divtemplate.style.display = 'none';
+  });
 }
 
 button.forEach((btn) => {
