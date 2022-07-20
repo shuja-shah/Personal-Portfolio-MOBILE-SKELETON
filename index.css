@@ -7,6 +7,7 @@ body {
   flex-wrap: wrap;
   overflow-x: hidden;
 }
+
 ul {
   list-style: none;
 }
@@ -737,6 +738,7 @@ footer {
 .meow {
   background-color: hsla(22, 6%, 10%, 1);
 }
+
 .project-text-div {
   display: flex;
   flex-direction: column;
@@ -748,7 +750,7 @@ footer {
 
   /* background-color: #fff;
   position: absolute;
-  top: 100px; 
+  top: 100px;
   padding: 16px;
   left: 10%;
   width: 70%;
@@ -762,12 +764,14 @@ footer {
   width: 50%;
   height: auto;
 }
+
 .myBck {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
   width: 153px;
 }
+
 .myBck li {
   border: 1px solid hsla(218, 13%, 59%, 1);
   color: hsla(218, 76%, 15%, 1);
@@ -775,11 +779,13 @@ footer {
   font-size: 15px;
   margin-right: 16px;
 }
+
 .title-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .title-container h3 {
   font-family: "Inter", sans-serif;
   font-size: 15px;
@@ -788,23 +794,28 @@ footer {
   letter-spacing: 0.03em;
   color: #172b4d;
 }
+
 #popup-close-btn {
   font-size: 40px;
 }
+
 .popup-description-container {
   display: flex;
   flex-direction: column-reverse;
   align-self: flex-start;
   justify-content: flex-end;
 }
+
 .popup-description-container p {
   font-family: "Inter", sans-serif;
   font-size: 15px;
   color: hsla(218, 76%, 15%, 1);
   margin-bottom: 20px;
+
   /* margin-top: 50px; */
   width: 300px;
 }
+
 .popup-description-container a {
   text-decoration: none;
   color: hsla(0, 0%, 100%, 1);
@@ -815,13 +826,14 @@ footer {
   padding: 15px;
   font-family: "Inter", sans-serif;
 }
+
 .project-image-div {
-  display: flex ;
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
-#template{
+#template {
   position: absolute;
   top: 0;
   left: 0;
@@ -829,7 +841,6 @@ footer {
   height: 3589px;
   background-color: rgba(0, 0, 0, 0.7);
   display: none;
-
 }
 
 @media (min-width: 768px) {
@@ -1192,12 +1203,13 @@ footer {
     font-family: "Inter", sans-serif;
     font-size: 15px;
   }
+
   /* .project-text-div{
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  
+
 } */
 
   .project-image-div {
@@ -1210,10 +1222,13 @@ footer {
     flex-wrap: nowrap;
     justify-content: flex-start; */
   }
+
   .project-image-div img {
     grid-column: 1 /7;
     width: 100%;
+
     /* width: 649px; */
+
     /* height: 448px;
     justify-self: flex-start;
     align-self: flex-end; */
@@ -1221,21 +1236,28 @@ footer {
 
   .popup-description-container {
     grid-column: 7/12;
+
     /* height: 35px; */
     display: flex;
+
     /* flex-direction: column; */
     row-gap: 24px;
+
     /* flex-direction: column-reverse; */
+
     /* align-items: space-around; */
   }
+
   .popup-description-container p {
     font-family: "Inter", sans-serif;
     font-size: 18px;
     color: hsla(218, 76%, 15%, 1);
     margin-bottom: 20px;
+
     /* padding-left: 50px; */
     width: 200px;
   }
+
   .popup-description-container a {
     text-decoration: none;
     color: hsla(0, 0%, 100%, 1);
@@ -1245,6 +1267,7 @@ footer {
     text-align: center;
     padding: 15px;
   }
+
   .description {
     color: #333;
     font-size: 16px;
