@@ -104,8 +104,8 @@ function initialize(project) {
       <div class="popup-description-container">
           <p class="description" id="description">${project.projectDiscription}</p>
             <div class="popup-button">
-              <a href="#" class="popup-btn submit-button" id="btn-live">See Live</a>
-              <a href="#" class="popup-btn submit-button" id="btn-source">See Sources</a>
+              <a href="#" class="popup-btn submit-button" id="btn-live">See Live <span><i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
+              <a href="#" class="popup-btn submit-button" id="btn-source">See Sources <span><i class="popup-btn-icon fa-brands fa-github"></i></span></a>
             </div>
             </div>
 
