@@ -9,7 +9,7 @@ const project = [
       bootstrap: 'Bootstrap',
       ruby: 'Ruby',
     },
-    projectImage: 'assets/pro3.png',
+    projectImage: 'pro1.png',
   },
   {
     projectTitle: 'Data Dashboard Healthcare',
@@ -72,6 +72,78 @@ const project = [
       ruby: 'ruby',
     },
     projectImage: 'assets/pro5.png',
+  },
+  {
+    projectTitle: 'Profesional Art Printing Data',
+    projectDiscription:
+      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
+      + 'been the industrys standard',
+    techTools: {
+      html: 'HTML',
+      bootstrap: 'Bootstrap',
+      ruby: 'Ruby',
+    },
+    projectImage: 'assets/pro3.png',
+  },
+  {
+    projectTitle: 'Profesional Art Printing Data',
+    projectDiscription:
+      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
+      + 'been the industrys standard',
+    techTools: {
+      html: 'HTML',
+      bootstrap: 'Bootstrap',
+      ruby: 'Ruby',
+    },
+    projectImage: 'assets/snap.png',
+  },
+  {
+    projectTitle: 'Profesional Art Printing Data',
+    projectDiscription:
+      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
+      + 'been the industrys standard',
+    techTools: {
+      html: 'HTML',
+      bootstrap: 'Bootstrap',
+      ruby: 'Ruby',
+    },
+    projectImage: 'assets/pro5.png',
+  },
+  {
+    projectTitle: 'Profesional Art Printing Data',
+    projectDiscription:
+      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
+      + 'been the industrys standard',
+    techTools: {
+      html: 'HTML',
+      bootstrap: 'Bootstrap',
+      ruby: 'Ruby',
+    },
+    projectImage: 'assets/snap.png',
+  },
+  {
+    projectTitle: 'Profesional Art Printing Data',
+    projectDiscription:
+      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
+      + 'been the industrys standard',
+    techTools: {
+      html: 'HTML',
+      bootstrap: 'Bootstrap',
+      ruby: 'Ruby',
+    },
+    projectImage: 'assets/pro4.png',
+  },
+  {
+    projectTitle: 'Profesional Art Printing Data',
+    projectDiscription:
+      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
+      + 'been the industrys standard',
+    techTools: {
+      html: 'HTML',
+      bootstrap: 'Bootstrap',
+      ruby: 'Ruby',
+    },
+    projectImage: 'assets/snap.png',
   },
 ];
 
