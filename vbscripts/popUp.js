@@ -160,10 +160,11 @@ function initialize(project) {
   body.style.overflowY = "hidden";
   headerTop.style.filter = "blur(3px)";
   socialIcon.style.filter = "blur(3px)";
-  divtemplate.style.display = "flex";
-  divtemplate.style.flexWrap = "wrap";
-  divtemplate.style.height = "50vh";
-  divtemplate.style.width = "70vw";
+  divtemplate.style.display = 'block';
+  // divtemplate.style.display = "flex";
+  // divtemplate.style.flexWrap = "wrap";
+  // divtemplate.style.height = "50vh";
+  // divtemplate.style.width = "70vw";
   const template = `
   <div class="project-text-div">
     <div class='title-container'>
@@ -177,17 +178,17 @@ function initialize(project) {
       <li>${project.techTools.ruby}</li>
       </ul> 
     
-      <div class="project-image-div">
+    <div class="project-image-div">
       <img src="${project.projectImage}" alt="${project.projectTitle}">
+      
       <div class="popup-description-container">
           <p class="description" id="description">${project.projectDiscription}</p>
             <div class="popup-button">
               <a href="#" class="popup-btn submit-button" id="btn-live">See Live <span><i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
               <a href="#" class="popup-btn submit-button" id="btn-source">See Sources <span><i class="popup-btn-icon fa-brands fa-github"></i></span></a>
             </div>
-            </div>
-
       </div>
+    </div>
     </div>   
     `;
   divtemplate.innerHTML = template;
@@ -196,7 +197,8 @@ function initialize(project) {
     divtemplate.style.display = "none";
     body.style.overflowY = "visible";
     headerTop.style.filter = "blur(0)";
-  socialIcon.style.filter = "blur(0)";
+    socialIcon.style.filter = "blur(0)";
+    
 
   });
 }
