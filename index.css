@@ -737,6 +737,83 @@ footer {
 .meow {
   background-color: hsla(22, 6%, 10%, 1);
 }
+.project-text-div{
+
+  background-color: #fff;
+  position: absolute;
+  top: 100px;
+  padding: 16px;
+  left: 16px;
+  width: 313px;
+  height: 500px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.project-text-div img{
+  width: 260px;
+  height: 230px;
+}
+.myBck{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 50px;
+}
+.myBck li{
+  border: 1px solid hsla(218, 13%, 59%, 1);
+  color: hsla(218, 76%, 15%, 1);
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  
+}
+.title-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.title-container h3{
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #172b4d;
+}
+#popup-close-btn{
+  font-size: 40px;
+  
+}
+.popup-description-container{
+  height: 35px;
+  display: flex;
+  flex-direction: column-reverse;
+ align-self: flex-start;
+ justify-content: flex-end;
+}
+.popup-description-container p{
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  color: hsla(218, 76%, 15%, 1);
+  margin-bottom: 20px;
+  /* margin-top: 50px; */
+  width: 300px;
+  
+}
+.popup-description-container a{
+  text-decoration: none;
+  color: hsla(0, 0%, 100%, 1);
+  background-color: hsla(22, 100%, 48%, 1);
+  width: 12px;
+  height: 18px;
+  text-align: center;
+  padding: 15px;
+}
+.project-image-div{
+  display: flex !important;
+  flex-direction: column;
+  flex-wrap: wrap;
+ }
 
 @media (min-width: 768px) {
   .logo {
