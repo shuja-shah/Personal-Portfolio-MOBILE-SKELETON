@@ -999,7 +999,6 @@ footer {
   }
 
   .mobil:hover {
-    /* width: 45%; */
     transform: scale(1.1);
     margin: 20px;
   }
@@ -1072,13 +1071,10 @@ footer {
     display: flex;
     flex-direction: row;
     column-gap: 24px;
-
-    /* flex-wrap: wrap; */
     grid-column: 1/-1;
   }
 
   .detail {
-    /* padding-left: 50px; */
     width: 50%;
   }
 
