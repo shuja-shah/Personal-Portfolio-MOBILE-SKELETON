@@ -9,7 +9,7 @@ const project = [
       bootstrap: 'Bootstrap',
       ruby: 'Ruby',
     },
-    projectImage: 'pro3.png',
+    projectImage: 'assets/pro3.png',
   },
   {
     projectTitle: 'Data Dashboard Healthcare',
@@ -21,7 +21,7 @@ const project = [
       bootstrap: 'Bootstrap',
       ruby: 'Ruby',
     },
-    projectImage: 'pro4.png',
+    projectImage: 'assets/pro4.png',
   },
   {
     projectTitle: 'Profesional Art Printing Data',
@@ -33,7 +33,7 @@ const project = [
       bootstrap: 'Bootstrap',
       ruby: 'ruby',
     },
-    projectImage: 'pro5.png',
+    projectImage: 'assets/pro5.png',
   },
   {
     projectTitle: 'Profesional Art Printing Data',
@@ -45,20 +45,7 @@ const project = [
       bootstrap: 'Bootstrap',
       ruby: 'ruby',
     },
-    projectImage: 'pro3.png',
-  },
-
-  {
-    projectTitle: 'Profesional Art Printing Data',
-    projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
-    techTools: {
-      html: 'HTML',
-      bootstrap: 'Bootstrap',
-      ruby: 'ruby',
-    },
-    projectImage: 'pro4.png',
+    projectImage: 'assets/pro3.png',
   },
 
   {
@@ -71,7 +58,20 @@ const project = [
       bootstrap: 'Bootstrap',
       ruby: 'ruby',
     },
-    projectImage: 'pro5.png',
+    projectImage: 'assets/pro4.png',
+  },
+
+  {
+    projectTitle: 'Profesional Art Printing Data',
+    projectDiscription:
+      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
+      + 'been the industrys standard',
+    techTools: {
+      html: 'HTML',
+      bootstrap: 'Bootstrap',
+      ruby: 'ruby',
+    },
+    projectImage: 'assets/pro5.png',
   },
 ];
 
