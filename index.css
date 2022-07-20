@@ -821,6 +821,17 @@ footer {
   flex-wrap: wrap;
 }
 
+#template{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 3589px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+
+}
+
 @media (min-width: 768px) {
   .logo {
     font-family: "Inter", sans-serif;
@@ -1163,25 +1174,14 @@ footer {
     grid-column-start: -1;
     display: block;
   }
-  /* .template{
- margin-right: 200px;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 3458px;
-  background-color: rgba(0, 0, 0, 0.3);
-  display: none;
-} */
 
   .project-text-div {
     background-color: #fff;
     position: fixed;
     top: 12%;
     left: 5%;
-    width: 80vw;
-    height: 85vh;
+    width: 83vw;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
   }
 
