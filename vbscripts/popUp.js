@@ -77,11 +77,13 @@ const project = [
 
 const button = document.querySelectorAll('.btn-primary');
 const load = document.querySelector('Load');
-function initialize(project) {
-  const projectDiv = document.createElement('div');
-  projectDiv.className = 'project-div';
-  const divtemplate = document.getElementById('template'); 
 
+const projectDiv = document.createElement('div');
+projectDiv.className = 'project-div';
+const divtemplate = document.getElementById('template'); 
+
+function initialize(project) {
+ 
   let template = `
         <div class="project-image-div">
         <img src="${project.projectImage}" alt="${project.projectTitle}">
@@ -94,8 +96,8 @@ function initialize(project) {
         <p>${project.techTools.ruby}</p>
         </div>`  
   ;
-  divtemplate.innerHtml = template;
-  console.log(template);
+  divtemplate.innerHTML = template;
+  console.log(template);git 
   console.log(divtemplate);
 }
 
