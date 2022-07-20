@@ -85,16 +85,19 @@ const divtemplate = document.getElementById('template');
 function initialize(project) {
  
   let template = `
-        <div class="project-image-div">
-        <img src="${project.projectImage}" alt="${project.projectTitle}">
-        </div>
-        <div class="project-text-div">
-        <h3>${project.projectTitle}</h3>
-        <p>${project.projectDiscription}</p>
-        <p>${project.techTools.html}</p>
-        <p>${project.techTools.bootstrap}</p>
-        <p>${project.techTools.ruby}</p>
-        </div>`  
+    <div class="project-text-div">
+    <h3>${project.projectTitle}</h3>
+    <ul>
+    <li>${project.projectDiscription}</li>
+    <li>${project.techTools.html}</li>
+    <li>${project.techTools.bootstrap}</li>
+    <li>${project.techTools.ruby}</li>
+    </ul> 
+    </div>  
+    <div class="project-image-div">
+    <img src="${project.projectImage}" alt="${project.projectTitle}">
+    </div>`
+        
   ;
   divtemplate.innerHTML = template;
   console.log(template);git 
