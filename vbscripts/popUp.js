@@ -86,34 +86,40 @@ const closeBtn = document.getElementById('popup-close-btn');
 function initialize(project) {
   window.scrollTo(0, 0);
   divtemplate.style.display = 'flex';
+  divtemplate.style.flexWrap = 'wrap';
+  divtemplate.style.height = '50vh';
+  divtemplate.style.width = '70vw';
   const template = `
-    <div class="project-text-div">
-   <div class='title-container'>
-    <h3>${project.projectTitle}</h3>
-    <span class="popup-close-btn" id="popup-close-btn">&times;</span>
-   </div>
-
-    <ul class ='myBck'>
-    <li>${project.techTools.html}</li>
-    <li>${project.techTools.bootstrap}</li>
-    <li>${project.techTools.ruby}</li>
-    </ul> 
-  
-    <div class="project-image-div">
-    <img src="${project.projectImage}" alt="${project.projectTitle}">
-    
+  <div class="project-text-div">
+    <div class='title-container'>
+      <h3>${project.projectTitle}</h3>
+      <span class="popup-close-btn" id="popup-close-btn">&times;</span>
     </div>
-          <div class="popup-description-container">
-             <p class="description" id="description">${project.projectDiscription}</p>
-               <div class="popup-button">
-                  <a href="#" class="popup-btn submit-button" id="btn-live">See Live</a>
-                  <a href="#" class="popup-btn submit-button" id="btn-source">See Sources</a>
-                </div>
-                </div>
 
-          </div> 
+      <ul class ='myBck'>
+      <li>${project.techTools.html}</li>
+      <li>${project.techTools.bootstrap}</li>
+      <li>${project.techTools.ruby}</li>
+      </ul> 
+    
+      <div class="project-image-div">
+      <img src="${project.projectImage}" alt="${project.projectTitle}">
+      <div class="popup-description-container">
+          <p class="description" id="description">${project.projectDiscription}</p>
+            <div class="popup-button">
+              <a href="#" class="popup-btn submit-button" id="btn-live">See Live</a>
+              <a href="#" class="popup-btn submit-button" id="btn-source">See Sources</a>
+            </div>
+            </div>
+
+      </div>
+    </div>   
     `;
-
+  // const secondChild = document.querySelector('.project-image-div');
+  // secondChild.style.display = 'flex';
+  // secondChild.style.flexDrap = 'wrap';
+  // secondChild.style.flexDirection = 'column';
+  // secondChild.style.columnGap = '18px';
   divtemplate.innerHTML = template;
 }
 

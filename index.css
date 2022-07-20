@@ -1080,23 +1080,27 @@ footer {
     grid-column-start: -1;
     display: block;
   }
-.template{
-  position: fixed;
+/* .template{
+ margin-right: 200px;
   top: 0;
   left: 0;
   width: 100vw;
   height: 3458px;
   background-color: rgba(0, 0, 0, 0.3);
   display: none;
-}
+} */
 
 .project-text-div{
+
   background-color: #fff;
-  position: absolute;
+  position: fixed;
   top: 2%;
-  left: 25%;
+  left: 10%;
   width: 75vw;
   height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 .myBck{
   display: flex;
@@ -1113,11 +1117,40 @@ footer {
   font-size: 15px;
   
 }
-.popup-description-container{
-  height: 50px;
+.project-text-div{
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+}
+
+.project-image-div{
+ display: flex !important;
+ flex-direction: row;
+}
+
+.popup-description-container{
+  height: 35px;
+  display: flex;
+  flex-direction: column-reverse;
+ align-self: flex-end;
+  padding-bottom: 50px;
+}
+.popup-description-container p{
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: hsla(218, 76%, 15%, 1);
+  margin-bottom: 20px;
+  /* padding-left: 50px; */
+  width: 200px;
+}
+.popup-description-container a{
+  text-decoration: none;
+  color: hsla(0, 0%, 100%, 1);
+  background-color: hsla(22, 100%, 48%, 1);
+  width: 18px;
+  height: 24px;
+  text-align: center;
+  padding: 15px;
 }
 .description{
   color: #333;
