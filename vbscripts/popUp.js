@@ -151,9 +151,11 @@ const button = document.querySelectorAll('.btn-primary');
 const projectDiv = document.createElement('div');
 projectDiv.className = 'project-div';
 const divtemplate = document.getElementById('template');
+const body = document.querySelector('body');
 
 function initialize(project) {
   window.scrollTo(0, 0);
+  body.style.overflowY = 'hidden';
   divtemplate.style.display = 'flex';
   divtemplate.style.flexWrap = 'wrap';
   divtemplate.style.height = '50vh';
@@ -188,6 +190,8 @@ function initialize(project) {
   const closeBtn = document.getElementById('popup-close-btn');
   closeBtn.addEventListener('click', () => {
     divtemplate.style.display = 'none';
+  body.style.overflowY = "visible";
+
   });
 }
 
