@@ -80,8 +80,9 @@ const load = document.querySelector('Load');
 function initialize(project) {
   const projectDiv = document.createElement('div');
   projectDiv.className = 'project-div';
+  const divtemplate = document.getElementById('template'); 
 
-  projectDiv.innerHTML = `
+  let template = `
         <div class="project-image-div">
         <img src="${project.projectImage}" alt="${project.projectTitle}">
         </div>
@@ -91,9 +92,11 @@ function initialize(project) {
         <p>${project.techTools.html}</p>
         <p>${project.techTools.bootstrap}</p>
         <p>${project.techTools.ruby}</p>
-        </div>`;
-
-  load.append(projectDiv);
+        </div>`  
+  ;
+  divtemplate.innerHtml = template;
+  console.log(template);
+  console.log(divtemplate);
 }
 
 button.forEach((btn) => {
