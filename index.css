@@ -7,6 +7,9 @@ body {
   flex-wrap: wrap;
   overflow-x: hidden;
 }
+ul{
+  list-style: none;
+}
 
 header {
   color: hsla(22, 1%, 24%, 1);
@@ -1095,7 +1098,27 @@ footer {
   width: 75vw;
   height: 90vh;
 }
-
+.myBck{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  padding: 10px;
+  width: 50px;
+}
+.myBck li{
+  border: 1px solid hsla(218, 13%, 59%, 1);
+  padding: 5px;
+  color: hsla(218, 76%, 15%, 1);
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  
+}
+.popup-description-container{
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
 .description{
   color: #333;
   font-size: 16px;
