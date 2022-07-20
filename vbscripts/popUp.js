@@ -93,7 +93,7 @@ function initialize(project) {
         <p>${project.techTools.ruby}</p>
         </div>`;
 
-  load.appendChild(projectDiv);
+  load.append(projectDiv);
 }
 
 button.forEach((btn) => {
