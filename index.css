@@ -1077,6 +1077,29 @@ footer {
     grid-column-start: -1;
     display: block;
   }
+.template{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 3458px;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+.project-text-div{
+  background-color: #fff;
+  position: absolute;
+  top: 2%;
+  left: 10%;
+  width: 85vw;
+  height: 90vh;
+}
+
+.description{
+  color: #333;
+  font-size: 16px;
+}
 
   .meow {
     display: grid;
