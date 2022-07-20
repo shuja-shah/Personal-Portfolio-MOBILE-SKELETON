@@ -81,6 +81,7 @@ const load = document.querySelector('Load');
 const projectDiv = document.createElement('div');
 projectDiv.className = 'project-div';
 const divtemplate = document.getElementById('template'); 
+const closeBtn = document.getElementById('popup-close-btn');
 
 function initialize(project) {
  
