@@ -1,165 +1,169 @@
 const project = [
   {
-    projectTitle: 'Profesional Art Printing Data',
+    projectTitle: "Profesional Art Printing Data",
     projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+      " A daily selection of privately personalized reads; no accounts or sign-ups required. has" +
+      "been the industrys standard",
     techTools: {
-      html: 'HTML',
-      bootstrap: 'Bootstrap',
-      ruby: 'Ruby',
+      html: "HTML",
+      bootstrap: "Bootstrap",
+      ruby: "Ruby",
     },
-    projectImage: 'pro1.png',
+    projectImage: "pro1.png",
   },
   {
-    projectTitle: 'Data Dashboard Healthcare',
+    projectTitle: "Data Dashboard Healthcare",
     projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+      " A daily selection of privately personalized reads; no accounts or sign-ups required. has" +
+      "been the industrys standard",
     techTools: {
-      html: 'HTML',
-      bootstrap: 'Bootstrap',
-      ruby: 'Ruby',
+      html: "HTML",
+      bootstrap: "Bootstrap",
+      ruby: "Ruby",
     },
-    projectImage: 'assets/pro4.png',
+    projectImage: "assets/pro4.png",
   },
   {
-    projectTitle: 'Profesional Art Printing Data',
+    projectTitle: "Profesional Art Printing Data",
     projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+      " A daily selection of privately personalized reads; no accounts or sign-ups required. has" +
+      "been the industrys standard",
     techTools: {
-      html: 'HTML',
-      bootstrap: 'Bootstrap',
-      ruby: 'ruby',
+      html: "HTML",
+      bootstrap: "Bootstrap",
+      ruby: "ruby",
     },
-    projectImage: 'assets/pro5.png',
+    projectImage: "assets/pro5.png",
   },
   {
-    projectTitle: 'Profesional Art Printing Data',
+    projectTitle: "Profesional Art Printing Data",
     projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+      " A daily selection of privately personalized reads; no accounts or sign-ups required. has" +
+      "been the industrys standard",
     techTools: {
-      html: 'HTML',
-      bootstrap: 'Bootstrap',
-      ruby: 'ruby',
+      html: "HTML",
+      bootstrap: "Bootstrap",
+      ruby: "ruby",
     },
-    projectImage: 'assets/pro3.png',
-  },
-
-  {
-    projectTitle: 'Profesional Art Printing Data',
-    projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
-    techTools: {
-      html: 'HTML',
-      bootstrap: 'Bootstrap',
-      ruby: 'ruby',
-    },
-    projectImage: 'assets/pro4.png',
+    projectImage: "assets/pro3.png",
   },
 
   {
-    projectTitle: 'Profesional Art Printing Data',
+    projectTitle: "Profesional Art Printing Data",
     projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+      " A daily selection of privately personalized reads; no accounts or sign-ups required. has" +
+      "been the industrys standard",
     techTools: {
-      html: 'HTML',
-      bootstrap: 'Bootstrap',
-      ruby: 'ruby',
+      html: "HTML",
+      bootstrap: "Bootstrap",
+      ruby: "ruby",
     },
-    projectImage: 'assets/pro5.png',
+    projectImage: "assets/pro4.png",
+  },
+
+  {
+    projectTitle: "Profesional Art Printing Data",
+    projectDiscription:
+      " A daily selection of privately personalized reads; no accounts or sign-ups required. has" +
+      "been the industrys standard",
+    techTools: {
+      html: "HTML",
+      bootstrap: "Bootstrap",
+      ruby: "ruby",
+    },
+    projectImage: "assets/pro5.png",
   },
   {
-    projectTitle: 'Profesional Art Printing Data',
+    projectTitle: "Profesional Art Printing Data",
     projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+      " A daily selection of privately personalized reads; no accounts or sign-ups required. has" +
+      "been the industrys standard",
     techTools: {
-      html: 'HTML',
-      bootstrap: 'Bootstrap',
-      ruby: 'Ruby',
+      html: "HTML",
+      bootstrap: "Bootstrap",
+      ruby: "Ruby",
     },
-    projectImage: 'assets/pro3.png',
+    projectImage: "assets/pro3.png",
   },
   {
-    projectTitle: 'Profesional Art Printing Data',
+    projectTitle: "Profesional Art Printing Data",
     projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+      " A daily selection of privately personalized reads; no accounts or sign-ups required. has" +
+      "been the industrys standard",
     techTools: {
-      html: 'HTML',
-      bootstrap: 'Bootstrap',
-      ruby: 'Ruby',
+      html: "HTML",
+      bootstrap: "Bootstrap",
+      ruby: "Ruby",
     },
-    projectImage: 'assets/snap.png',
+    projectImage: "assets/snap.png",
   },
   {
-    projectTitle: 'Profesional Art Printing Data',
+    projectTitle: "Profesional Art Printing Data",
     projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+      " A daily selection of privately personalized reads; no accounts or sign-ups required. has" +
+      "been the industrys standard",
     techTools: {
-      html: 'HTML',
-      bootstrap: 'Bootstrap',
-      ruby: 'Ruby',
+      html: "HTML",
+      bootstrap: "Bootstrap",
+      ruby: "Ruby",
     },
-    projectImage: 'assets/pro5.png',
+    projectImage: "assets/pro5.png",
   },
   {
-    projectTitle: 'Profesional Art Printing Data',
+    projectTitle: "Profesional Art Printing Data",
     projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+      " A daily selection of privately personalized reads; no accounts or sign-ups required. has" +
+      "been the industrys standard",
     techTools: {
-      html: 'HTML',
-      bootstrap: 'Bootstrap',
-      ruby: 'Ruby',
+      html: "HTML",
+      bootstrap: "Bootstrap",
+      ruby: "Ruby",
     },
-    projectImage: 'assets/snap.png',
+    projectImage: "assets/snap.png",
   },
   {
-    projectTitle: 'Profesional Art Printing Data',
+    projectTitle: "Profesional Art Printing Data",
     projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+      " A daily selection of privately personalized reads; no accounts or sign-ups required. has" +
+      "been the industrys standard",
     techTools: {
-      html: 'HTML',
-      bootstrap: 'Bootstrap',
-      ruby: 'Ruby',
+      html: "HTML",
+      bootstrap: "Bootstrap",
+      ruby: "Ruby",
     },
-    projectImage: 'assets/pro4.png',
+    projectImage: "assets/pro4.png",
   },
   {
-    projectTitle: 'Profesional Art Printing Data',
+    projectTitle: "Profesional Art Printing Data",
     projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+      " A daily selection of privately personalized reads; no accounts or sign-ups required. has" +
+      "been the industrys standard",
     techTools: {
-      html: 'HTML',
-      bootstrap: 'Bootstrap',
-      ruby: 'Ruby',
+      html: "HTML",
+      bootstrap: "Bootstrap",
+      ruby: "Ruby",
     },
-    projectImage: 'assets/snap.png',
+    projectImage: "assets/snap.png",
   },
 ];
 
-const button = document.querySelectorAll('.btn-primary');
-const projectDiv = document.createElement('div');
-projectDiv.className = 'project-div';
-const divtemplate = document.getElementById('template');
-const body = document.querySelector('body');
+const button = document.querySelectorAll(".btn-primary");
+const projectDiv = document.createElement("div");
+projectDiv.className = "project-div";
+const divtemplate = document.getElementById("template");
+const body = document.querySelector("body");
+const headerTop = document.querySelector("header");
+const socialIcon = document.getElementsByClassName("social-icon-li")[0];
 
 function initialize(project) {
   window.scrollTo(0, 0);
-  body.style.overflowY = 'hidden';
-  divtemplate.style.display = 'flex';
-  divtemplate.style.flexWrap = 'wrap';
-  divtemplate.style.height = '50vh';
-  divtemplate.style.width = '70vw';
+  body.style.overflowY = "hidden";
+  headerTop.style.filter = "blur(3px)";
+  socialIcon.style.filter = "blur(3px)";
+  divtemplate.style.display = "flex";
+  divtemplate.style.flexWrap = "wrap";
+  divtemplate.style.height = "50vh";
+  divtemplate.style.width = "70vw";
   const template = `
   <div class="project-text-div">
     <div class='title-container'>
@@ -187,16 +191,18 @@ function initialize(project) {
     </div>   
     `;
   divtemplate.innerHTML = template;
-  const closeBtn = document.getElementById('popup-close-btn');
-  closeBtn.addEventListener('click', () => {
-    divtemplate.style.display = 'none';
-  body.style.overflowY = "visible";
+  const closeBtn = document.getElementById("popup-close-btn");
+  closeBtn.addEventListener("click", () => {
+    divtemplate.style.display = "none";
+    body.style.overflowY = "visible";
+    headerTop.style.filter = "blur(0)";
+  socialIcon.style.filter = "blur(0)";
 
   });
 }
 
 button.forEach((btn) => {
-  btn.addEventListener('click', (identity) => {
+  btn.addEventListener("click", (identity) => {
     const btnTity = identity.target.dataset.id;
     initialize(project[btnTity]);
   });
