@@ -80,8 +80,8 @@ const load = document.querySelector('Load');
 function initialize(project) {
   const projectDiv = document.createElement('div');
   projectDiv.className = 'project-div';
-  project.forEach((project) => {
-    projectDiv.innerHTML = `
+
+  projectDiv.innerHTML = `
         <div class="project-image-div">
         <img src="${project.projectImage}" alt="${project.projectTitle}">
         </div>
@@ -92,14 +92,13 @@ function initialize(project) {
         <p>${project.techTools.bootstrap}</p>
         <p>${project.techTools.ruby}</p>
         </div>`;
-  });
 
   load.appendChild(projectDiv);
 }
 
 button.forEach((btn) => {
   btn.addEventListener('click', (identity) => {
-    let btnTity = identity.target.dataset.id;
+    const btnTity = identity.target.dataset.id;
     initialize(project[btnTity]);
     // console.log(project[btnTity]);
   });
