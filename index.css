@@ -38,6 +38,15 @@ main {
   float: right;
 }
 
+.myBck li {
+  font-size: 15px;
+  margin-right: 16px;
+  border: 1px solid hsla(218, 13%, 59%, 1);
+  padding: 5px;
+  color: hsla(218, 76%, 15%, 1);
+  font-family: "Inter", sans-serif;
+}
+
 .nav-link li {
   border-bottom: 1px solid #6f6c6b;
   padding: 20px 0;
@@ -780,14 +789,6 @@ footer {
   justify-content: space-around;
   width: 153px;
 }
-.myBck li {
-  font-size: 15px;
-  margin-right: 16px;
-  border: 1px solid hsla(218, 13%, 59%, 1);
-  padding: 5px;
-  color: hsla(218, 76%, 15%, 1);
-  font-family: "Inter", sans-serif;
-}
 
 .title-container {
   display: flex;
@@ -818,8 +819,8 @@ footer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
 }
+
 .project-image-div img {
   width: 100%;
   height: auto;
