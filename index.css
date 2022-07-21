@@ -8,6 +8,10 @@ body {
   overflow-x: hidden;
 }
 
+ul {
+  list-style: none;
+}
+
 header {
   color: hsla(22, 1%, 24%, 1);
   display: grid;
@@ -32,6 +36,15 @@ main {
 
 .nav ul {
   float: right;
+}
+
+.myBck li {
+  font-size: 15px;
+  margin-right: 16px;
+  border: 1px solid hsla(218, 13%, 59%, 1);
+  padding: 5px;
+  color: hsla(218, 76%, 15%, 1);
+  font-family: "Inter", sans-serif;
 }
 
 .nav-link li {
@@ -236,12 +249,32 @@ h3 {
   order: 3;
 }
 
+.popup-description-container a {
+  text-decoration: none;
+  color: hsla(0, 0%, 100%, 1);
+  background-color: hsla(22, 100%, 48%, 1);
+  text-align: center;
+  padding: 12px;
+  font-family: "Inter", sans-serif;
+}
+
 .blocks ul {
   list-style: none;
   padding: 0;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+}
+
+.popup-button a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0;
+  width: 100px;
 }
 
 .blocks ul li a {
@@ -478,6 +511,15 @@ h3 {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+}
+
+.title-container h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #172b4d;
 }
 
 .skill ul h3 {
@@ -745,6 +787,93 @@ footer {
   background-color: hsla(22, 6%, 10%, 1);
 }
 
+.project-text-div {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 5%;
+  background-color: #fff;
+  width: 84vw;
+  height: auto;
+  padding: 16px 18px 24px 18px;
+}
+
+.project-text-div img {
+  width: 50%;
+  height: auto;
+}
+
+.myBck {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 153px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#popup-close-btn {
+  font-size: 40px;
+}
+
+.popup-description-container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-self: flex-start;
+  justify-content: flex-end;
+}
+
+.popup-description-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  color: hsla(218, 76%, 15%, 1);
+  overflow: hidden;
+  height: 100px;
+}
+
+.project-image-div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.project-image-div img {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  flex-shrink: 1;
+}
+
+#template {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 3589px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+.popup-button {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 24px;
+  padding-top: 20px;
+}
+
+#btn-live {
+  justify-self: flex-start;
+}
+
+#btn-source {
+  justify-self: flex-end;
+}
+
 @media (min-width: 768px) {
   .logo {
     font-family: "Inter", sans-serif;
@@ -782,6 +911,15 @@ footer {
 
   .nav-link {
     display: block;
+  }
+
+  .myBck li {
+    font-size: 15px;
+    margin-right: 16px;
+    border: 1px solid hsla(218, 13%, 59%, 1);
+    padding: 5px;
+    color: hsla(218, 76%, 15%, 1);
+    font-family: "Inter", sans-serif;
   }
 
   .nav ul li {
@@ -913,7 +1051,6 @@ footer {
   }
 
   .mobil:hover {
-    /* width: 45%; */
     transform: scale(1.1);
     margin: 20px;
   }
@@ -986,13 +1123,10 @@ footer {
     display: flex;
     flex-direction: row;
     column-gap: 24px;
-
-    /* flex-wrap: wrap; */
     grid-column: 1/-1;
   }
 
   .detail {
-    /* padding-left: 50px; */
     width: 50%;
   }
 
@@ -1086,6 +1220,60 @@ footer {
   .abimg {
     grid-column-start: -1;
     display: block;
+  }
+
+  .project-text-div {
+    background-color: #fff;
+    position: fixed;
+    top: 15%;
+    left: 5%;
+    width: 83vw;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .project-image-div {
+    display: grid;
+    column-gap: 24px;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .project-image-div img {
+    grid-column: 1 /7;
+    width: 100%;
+  }
+
+  .popup-description-container {
+    grid-column: 7/12;
+    display: flex;
+    row-gap: 24px;
+  }
+
+  .popup-description-container p {
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    color: hsla(218, 76%, 15%, 1);
+    width: 100%;
+    height: max-content;
+  }
+
+  .popup-description-container a {
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, 1);
+    background-color: hsla(22, 100%, 48%, 1);
+    text-align: center;
+    padding: 10px;
+  }
+
+  .description {
+    color: #333;
+    font-size: 16px;
+  }
+
+  .popup-close-btn {
+    font-size: 35px;
+    font-weight: 700;
   }
 
   .meow {
@@ -1206,5 +1394,9 @@ footer {
 
   .wrapper li:focus-within {
     transform: scale(1.2);
+  }
+
+  .popup-button {
+    justify-content: space-around;
   }
 }
