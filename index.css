@@ -253,13 +253,10 @@ h3 {
   text-decoration: none;
   color: hsla(0, 0%, 100%, 1);
   background-color: hsla(22, 100%, 48%, 1);
-  width: 12px;
-  height: 18px;
   text-align: center;
-  padding: 15px;
+  padding: 12px;
   font-family: "Inter", sans-serif;
 }
-
 .blocks ul {
   list-style: none;
   padding: 0;
@@ -775,7 +772,8 @@ footer {
   left: 5%;
   background-color: #fff;
   width: 84vw;
-  padding: 16px 16px 24px 16px;
+  height: 100%;
+  padding: 16px 18px 24px 18px;
 }
 
 .project-text-div img {
@@ -812,7 +810,7 @@ footer {
   font-size: 15px;
   color: hsla(218, 76%, 15%, 1);
   margin-bottom: 20px;
-  width: 300px;
+  width: 100%;
 }
 
 .project-image-div {
@@ -835,7 +833,29 @@ footer {
   background-color: rgba(0, 0, 0, 0.7);
   display: none;
 }
+.popup-button{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 24px;
+  padding-top: 20px;
+}
 
+.popup-button a{
+  text-decoration: none;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0;
+  width: 100px;
+}
+#btn-live{
+  justify-self: flex-start;
+}
+#btn-source{
+  justify-self: flex-end;
+}
 @media (min-width: 768px) {
   .logo {
     font-family: "Inter", sans-serif;
@@ -1223,10 +1243,8 @@ footer {
     text-decoration: none;
     color: hsla(0, 0%, 100%, 1);
     background-color: hsla(22, 100%, 48%, 1);
-    width: 18px;
-    height: 24px;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
   }
 
   .description {
