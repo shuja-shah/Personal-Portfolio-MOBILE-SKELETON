@@ -257,12 +257,24 @@ h3 {
   padding: 12px;
   font-family: "Inter", sans-serif;
 }
+
 .blocks ul {
   list-style: none;
   padding: 0;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+}
+
+.popup-button a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0;
+  width: 100px;
 }
 
 .blocks ul li a {
@@ -774,7 +786,6 @@ footer {
   width: 84vw;
   height: auto;
   padding: 16px 18px 24px 18px;
-  top:3%;
 }
 
 .project-text-div img {
@@ -810,19 +821,22 @@ footer {
   font-family: "Inter", sans-serif;
   font-size: 15px;
   color: hsla(218, 76%, 15%, 1);
-  margin-bottom: 20px;
-  width: 100%;
+  overflow: hidden;
+  height: 100px;
 }
 
 .project-image-div {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .project-image-div img {
   width: 100%;
   height: auto;
+  align-self: center;
+  flex-shrink: 1;
 }
 
 #template {
@@ -834,29 +848,22 @@ footer {
   background-color: rgba(0, 0, 0, 0.7);
   display: none;
 }
-.popup-button{
+
+.popup-button {
   display: flex;
   justify-content: space-between;
   column-gap: 24px;
   padding-top: 20px;
 }
 
-.popup-button a{
-  text-decoration: none;
-  color: #fff;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  letter-spacing: 0;
-  width: 100px;
-}
-#btn-live{
+#btn-live {
   justify-self: flex-start;
 }
-#btn-source{
+
+#btn-source {
   justify-self: flex-end;
 }
+
 @media (min-width: 768px) {
   .logo {
     font-family: "Inter", sans-serif;
@@ -1208,11 +1215,12 @@ footer {
   .project-text-div {
     background-color: #fff;
     position: fixed;
-    top: 12%;
+    top: 15%;
     left: 5%;
     width: 83vw;
     display: flex;
     flex-direction: column;
+    height: auto;
   }
 
   .project-image-div {
@@ -1237,7 +1245,7 @@ footer {
     font-size: 17px;
     color: hsla(218, 76%, 15%, 1);
     width: 100%;
-    
+    height: max-content;
   }
 
   .popup-description-container a {
@@ -1246,7 +1254,6 @@ footer {
     background-color: hsla(22, 100%, 48%, 1);
     text-align: center;
     padding: 10px;
-
   }
 
   .description {
@@ -1378,7 +1385,8 @@ footer {
   .wrapper li:focus-within {
     transform: scale(1.2);
   }
-  .popup-button{
+
+  .popup-button {
     justify-content: space-around;
   }
 }
