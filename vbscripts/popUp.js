@@ -1,9 +1,7 @@
 const project = [
   {
     projectTitle: 'Profesional Art Printing Data',
-    projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+    projectDiscription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     techTools: {
       html: 'HTML',
       bootstrap: 'Bootstrap',
@@ -13,9 +11,7 @@ const project = [
   },
   {
     projectTitle: 'Data Dashboard Healthcare',
-    projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+    projectDiscription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     techTools: {
       html: 'HTML',
       bootstrap: 'Bootstrap',
@@ -25,9 +21,8 @@ const project = [
   },
   {
     projectTitle: 'Profesional Art Printing Data',
-    projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+    projectDiscription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+
     techTools: {
       html: 'HTML',
       bootstrap: 'Bootstrap',
@@ -37,9 +32,8 @@ const project = [
   },
   {
     projectTitle: 'Profesional Art Printing Data',
-    projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+    projectDiscription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+
     techTools: {
       html: 'HTML',
       bootstrap: 'Bootstrap',
@@ -50,9 +44,8 @@ const project = [
 
   {
     projectTitle: 'Profesional Art Printing Data',
-    projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+    projectDiscription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+
     techTools: {
       html: 'HTML',
       bootstrap: 'Bootstrap',
@@ -63,9 +56,8 @@ const project = [
 
   {
     projectTitle: 'Profesional Art Printing Data',
-    projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+    projectDiscription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+
     techTools: {
       html: 'HTML',
       bootstrap: 'Bootstrap',
@@ -75,9 +67,8 @@ const project = [
   },
   {
     projectTitle: 'Profesional Art Printing Data',
-    projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+    projectDiscription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+
     techTools: {
       html: 'HTML',
       bootstrap: 'Bootstrap',
@@ -87,9 +78,8 @@ const project = [
   },
   {
     projectTitle: 'Profesional Art Printing Data',
-    projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+    projectDiscription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+
     techTools: {
       html: 'HTML',
       bootstrap: 'Bootstrap',
@@ -99,9 +89,8 @@ const project = [
   },
   {
     projectTitle: 'Profesional Art Printing Data',
-    projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+    projectDiscription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+
     techTools: {
       html: 'HTML',
       bootstrap: 'Bootstrap',
@@ -111,9 +100,8 @@ const project = [
   },
   {
     projectTitle: 'Profesional Art Printing Data',
-    projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+    projectDiscription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+
     techTools: {
       html: 'HTML',
       bootstrap: 'Bootstrap',
@@ -123,9 +111,8 @@ const project = [
   },
   {
     projectTitle: 'Profesional Art Printing Data',
-    projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+    projectDiscription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+
     techTools: {
       html: 'HTML',
       bootstrap: 'Bootstrap',
@@ -135,9 +122,8 @@ const project = [
   },
   {
     projectTitle: 'Profesional Art Printing Data',
-    projectDiscription:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has'
-      + 'been the industrys standard',
+    projectDiscription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+
     techTools: {
       html: 'HTML',
       bootstrap: 'Bootstrap',
