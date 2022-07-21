@@ -753,6 +753,15 @@ form textarea {
   font-family: "Inter", sans-serif;
 }
 
+.error-message {
+  color: red;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+}
+
 footer {
   width: 100%;
   display: flex;
