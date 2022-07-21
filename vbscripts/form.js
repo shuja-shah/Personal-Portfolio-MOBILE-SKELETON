@@ -6,4 +6,8 @@ const errorMessage = document.getElementsByClassName('error-message');
 
 form.addEventListener('submit', (e) =>{
     e.preventDefault();
+
+    if(email.value == email.toLower.case()){
+        
+    }
 })
