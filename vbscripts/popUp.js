@@ -154,17 +154,14 @@ const divtemplate = document.getElementById('template');
 const body = document.querySelector('body');
 const headerTop = document.querySelector('header');
 const socialIcon = document.getElementsByClassName('social-icon-li')[0];
-
+const bluryBlur = document.querySelector('.intro');
 function initialize(project) {
   window.scrollTo(0, 0);
   body.style.overflowY = 'hidden';
   headerTop.style.filter = 'blur(3px)';
   socialIcon.style.filter = 'blur(3px)';
   divtemplate.style.display = 'block';
-  // divtemplate.style.display = "flex";
-  // divtemplate.style.flexWrap = "wrap";
-  // divtemplate.style.height = "50vh";
-  // divtemplate.style.width = "70vw";
+  bluryBlur.style.filter = 'blur(3px)';
   const template = `
   <div class="project-text-div">
     <div class='title-container'>
@@ -198,6 +195,7 @@ function initialize(project) {
     body.style.overflowY = 'visible';
     headerTop.style.filter = 'blur(0)';
     socialIcon.style.filter = 'blur(0)';
+    bluryBlur.style.filter = 'blur(0)';
   });
 }
 
