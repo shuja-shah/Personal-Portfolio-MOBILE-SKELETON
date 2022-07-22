@@ -1,13 +1,13 @@
 const menuIcon = document.getElementById('hambuger-menu');
 const navBar = document.getElementById('nav-bar');
 const menuList = document.querySelector('.nav-link');
-const menuItemList = document.querySelectorAll('.nav-link li');
+const menuItemList = document.querySelectorAll('nav-link li');
 const main = document.querySelector('main');
 const header = document.querySelector('header');
 const email = document.getElementById('nav-mail');
 const btnClose = document.getElementById('btn-close');
 const logo = document.getElementsByClassName('logo')[0];
-const social = document.getElementById('special');
+const social = document.getElementById('#special');
 menuIcon.addEventListener('click', () => {
   email.style.display = 'none';
   menuIcon.style.display = 'none';
