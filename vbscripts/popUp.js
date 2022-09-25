@@ -37,15 +37,17 @@ const project = [
     projectSource: 'https://github.com/shuja-shah/Bookstore-CMS',
   },
   {
-    projectTitle: 'Profesional Art Printing Data',
-    projectDiscription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    projectTitle: 'Classical Fest',
+    projectDiscription: 'Classical Fest is a website for classical music lovers. It is a Single Page App (SPA) that allows users to: View all concerts, View the concerts of a specific musician, Like a concert, Comment on a concert, and see the item details on the comments pop-up.',
 
     techTools: {
       html: 'HTML',
-      bootstrap: 'Bootstrap',
-      ruby: 'ruby',
+      bootstrap: 'CSS',
+      ruby: 'Javascript',
     },
-    projectImage: 'assets/pro3.png',
+    projectImage: 'assets/homepage.png',
+    projectLink: 'https://shuja-shah.github.io/Classical-Fest/',
+    projectSource: 'https://github.com/shuja-shah/Classical-Fest',
   },
 
   {
