@@ -1,13 +1,15 @@
 const project = [
   {
-    projectTitle: 'Profesional Art Printing Data',
-    projectDiscription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    projectTitle: 'Post-COVID',
+    projectDiscription: 'Post COVID is a simple app that shows real time statistical data about the COVID-19 pandemic. It is built with Vanilla JavaScript. The data is provided by Mathdroid and is updated every 10 minutes.',
     techTools: {
       html: 'HTML',
-      bootstrap: 'Bootstrap',
-      ruby: 'Ruby',
+      bootstrap: 'SCSS',
+      ruby: 'JavaScript',
     },
-    projectImage: 'pro1.png',
+    projectImage: './assets/Capture.png',
+    projectLink: 'https://post-covid.netlify.app/',
+    projectSource: 'https://github.com/shuja-shah/POST-COVID',
   },
   {
     projectTitle: 'Data Dashboard Healthcare',
@@ -167,8 +169,8 @@ function initialize(project) {
       <div class="popup-description-container">
           <p class="description" id="description">${project.projectDiscription}</p>
             <div class="popup-button">
-              <a href="#" class="popup-btn submit-button" id="btn-live">See Live <span><i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
-              <a href="#" class="popup-btn submit-button" id="btn-source">See Sources <span><i class="popup-btn-icon fa-brands fa-github"></i></span></a>
+              <a href="${project.projectLink}" class="popup-btn submit-button" id="btn-live">See Live <span><i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
+              <a href="${project.projectSource}" class="popup-btn submit-button" id="btn-source">See Sources <span><i class="popup-btn-icon fa-brands fa-github"></i></span></a>
             </div>
       </div>
     </div>

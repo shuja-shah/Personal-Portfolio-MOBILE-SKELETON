@@ -873,6 +873,10 @@ footer {
   justify-self: flex-end;
 }
 
+.border {
+  outline: 5px solid #f55800;
+}
+
 @media (min-width: 768px) {
   .logo {
     font-family: "Inter", sans-serif;
@@ -1049,10 +1053,7 @@ footer {
     height: auto;
   }
 
-  .mobil:hover {
-    transform: scale(1.1);
-    margin: 20px;
-  }
+
 
   .desk {
     width: 100%;
