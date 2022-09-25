@@ -877,6 +877,11 @@ footer {
   outline: 5px solid #f55800;
 }
 
+.mobil {
+  width: 100%;
+  height: auto;
+}
+
 @media (min-width: 768px) {
   .logo {
     font-family: "Inter", sans-serif;
